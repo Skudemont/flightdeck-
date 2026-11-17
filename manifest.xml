@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Flight Deck watch face for Garmin Venu 4 (41mm and 45mm) -->
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application
+        id="205558f4d6aa4380ac1483a9cf5ef0bf"
+        type="watchface"
+        name="@Strings.AppName"
+        entry="FlightDeckApp"
+        launcherIcon="@Drawables.LauncherIcon"
+        minApiLevel="4.0.0">
+
+        <iq:products>
+            <iq:product id="venu441mm"/>
+            <iq:product id="venu445mm"/>
+        </iq:products>
+
+        <iq:permissions>
+            <!-- Needed for Body Battery history -->
+            <iq:uses-permission id="SensorHistory"/>
+        </iq:permissions>
+
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

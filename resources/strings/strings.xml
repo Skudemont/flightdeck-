@@ -1,0 +1,9 @@
+<strings>
+    <string id="AppName">Flight Deck</string>
+
+    <string id="ThemeTitle">Colour theme</string>
+    <string id="ThemeQR">QR Burgundy</string>
+    <string id="ThemeEicas">EICAS</string>
+
+    <string id="ShowSecondsTitle">Show seconds when awake</string>
+</strings>

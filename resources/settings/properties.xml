@@ -1,0 +1,5 @@
+<properties>
+    <!-- 0 QR Burgundy (gradient), 1 EICAS (original cyan/green) -->
+    <property id="Theme" type="number">0</property>
+    <property id="ShowSeconds" type="boolean">true</property>
+</properties>

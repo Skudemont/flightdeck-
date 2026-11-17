@@ -1,0 +1,122 @@
+name: Build Flight Deck
+
+# Builds the watch face in the cloud: downloads Garmin's Connect IQ SDK and the
+# Venu 4 device files, compiles .prg files for both sizes plus an .iq store
+# package, and publishes the files and compiler logs to the `build-output`
+# branch (and as a downloadable artifact).
+#
+# Needs two repository secrets: GARMIN_USERNAME and GARMIN_PASSWORD.
+# Optional secret: DEVELOPER_KEY_B64 (base64 of a .der developer key). Without
+# it, a fresh key is generated each build, which is fine for USB sideloading.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Prepare output folder
+        run: mkdir -p build
+
+      - name: Install Connect IQ SDK manager CLI
+        run: |
+          mkdir -p "$HOME/bin"
+          curl -fsSL https://raw.githubusercontent.com/lindell/connect-iq-sdk-manager-cli/master/install.sh \
+            | sh -s -- -b "$HOME/bin" v0.8.4 2>&1 | tee -a build/setup.log
+          echo "$HOME/bin" >> "$GITHUB_PATH"
+
+      - name: Accept Garmin SDK agreement and log in
+        env:
+          GARMIN_USERNAME: ${{ secrets.GARMIN_USERNAME }}
+          GARMIN_PASSWORD: ${{ secrets.GARMIN_PASSWORD }}
+        run: |
+          if [ -z "$GARMIN_USERNAME" ] || [ -z "$GARMIN_PASSWORD" ]; then
+            echo "ERROR: GARMIN_USERNAME / GARMIN_PASSWORD repository secrets are missing" | tee -a build/setup.log
+            exit 1
+          fi
+          {
+            connect-iq-sdk-manager agreement view
+            connect-iq-sdk-manager agreement accept
+            connect-iq-sdk-manager login
+          } 2>&1 | tee -a build/setup.log
+
+      - name: Download SDK and Venu 4 device files
+        run: |
+          connect-iq-sdk-manager sdk set ">=8.0.0" 2>&1 | tee -a build/setup.log
+          SDK_BIN="$(connect-iq-sdk-manager sdk current-path --bin)"
+          echo "SDK bin: $SDK_BIN" | tee -a build/setup.log
+          echo "$SDK_BIN" >> "$GITHUB_PATH"
+          connect-iq-sdk-manager device download --manifest=manifest.xml 2>&1 | tee -a build/setup.log
+
+      - name: Developer key
+        env:
+          DEVELOPER_KEY_B64: ${{ secrets.DEVELOPER_KEY_B64 }}
+        run: |
+          if [ -n "$DEVELOPER_KEY_B64" ]; then
+            echo "$DEVELOPER_KEY_B64" | base64 -d > "$RUNNER_TEMP/developer_key.der"
+            echo "Using developer key from secret" | tee -a build/setup.log
+          else
+            openssl genrsa -out "$RUNNER_TEMP/key.pem" 4096 2>/dev/null
+            openssl pkcs8 -topk8 -inform PEM -outform DER -in "$RUNNER_TEMP/key.pem" \
+              -out "$RUNNER_TEMP/developer_key.der" -nocrypt
+            rm "$RUNNER_TEMP/key.pem"
+            echo "Generated a temporary developer key" | tee -a build/setup.log
+          fi
+
+      - name: Compile
+        run: |
+          (monkeyc --version || true) 2>&1 | tee build/compile.log
+          status=0
+          for d in venu445mm venu441mm; do
+            echo "=== $d ===" | tee -a build/compile.log
+            if ! monkeyc -d "$d" -f monkey.jungle -o "build/FlightDeck-$d.prg" \
+                 -y "$RUNNER_TEMP/developer_key.der" -w 2>&1 | tee -a build/compile.log; then
+              status=1
+            fi
+          done
+          echo "=== store package (.iq) ===" | tee -a build/compile.log
+          if ! monkeyc -e -f monkey.jungle -o build/FlightDeck.iq \
+               -y "$RUNNER_TEMP/developer_key.der" -w -r 2>&1 | tee -a build/compile.log; then
+            status=1
+          fi
+          exit $status
+
+      - name: Publish output to the build-output branch
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "commit=${{ github.sha }}" > build/RESULT
+          echo "status=${{ job.status }}" >> build/RESULT
+          echo "time=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> build/RESULT
+          cd build
+          git init -q
+          git config user.name "flightdeck-ci"
+          git config user.email "flightdeck-ci@users.noreply.github.com"
+          git checkout -q -b build-output
+          git add -A
+          git commit -q -m "Build of ${{ github.sha }}: ${{ job.status }}"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" build-output
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: FlightDeck-build
+          path: build/
