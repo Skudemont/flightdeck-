@@ -112,10 +112,21 @@ jobs:
           shoot() {   # name device timezone
             echo "=== $1 ($2, TZ=$3) ===" | tee -a build/simulator.log
             TZ="$3" simulator >> build/simulator.log 2>&1 &
-            sleep 10
-            TZ="$3" timeout 40 monkeydo "build/FlightDeck-$2.prg" "$2" >> build/simulator.log 2>&1 &
-            sleep 20
+            sleep 8
+            # the simulator takes ~25 s to accept connections: retry until it does
+            for attempt in $(seq 1 20); do
+              TZ="$3" timeout 120 monkeydo "build/FlightDeck-$2.prg" "$2" > "build/monkeydo-$1.log" 2>&1 &
+              sleep 6
+              if grep -q "Unable to connect" "build/monkeydo-$1.log"; then
+                echo "attempt $attempt: simulator not ready yet" >> build/simulator.log
+                continue
+              fi
+              echo "attempt $attempt: app launched" >> build/simulator.log
+              break
+            done
+            sleep 15
             import -window root "build/sim-$1.png" 2>> build/simulator.log
+            cat "build/monkeydo-$1.log" >> build/simulator.log
             pkill -f monkeydo || true
             pkill -f "bin/simulator" || pkill simulator || true
             sleep 3
