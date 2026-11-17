@@ -442,10 +442,16 @@ class FlightDeckView extends WatchUi.WatchFace {
             values.add(homeString());
         }
 
-        var total = measurePairs(dc, labels, values, lblFont, valFont, gap, pairGap);
-        if (total > _w * 0.70) {   // keep clear of the side bars
-            valFont = Graphics.FONT_SMALL;
+        // Step down font sizes until the line keeps clear of the side bars
+        // (on the Venu 4, FONT_SMALL and FONT_MEDIUM can be the same size).
+        var fonts = [Graphics.FONT_MEDIUM, Graphics.FONT_SMALL, Graphics.FONT_TINY];
+        var total = 0;
+        for (var f = 0; f < fonts.size(); f++) {
+            valFont = fonts[f];
             total = measurePairs(dc, labels, values, lblFont, valFont, gap, pairGap);
+            if (total <= _w * 0.70) {
+                break;
+            }
         }
 
         var x = _cx - total / 2;
