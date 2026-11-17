@@ -357,7 +357,7 @@ class FlightDeckView extends WatchUi.WatchFace {
         drawPanel(dc);
         var hx = _cx - (_w * 0.15).toNumber();
         dc.setColor(_labelColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(hx, _h * 0.70, Graphics.FONT_XTINY, "HR", center);
+        dc.drawText(hx, _h * 0.686, Graphics.FONT_XTINY, "HR", center);
         drawEicas(dc, ds, am, battery);
     }
 
@@ -375,7 +375,7 @@ class FlightDeckView extends WatchUi.WatchFace {
 
         var hr = getHeartRate();
         var hx = _cx - (_w * 0.15).toNumber();
-        shadowText(dc, hx, _h * 0.77, Graphics.FONT_SMALL, hr == null ? "--" : hr.toString(),
+        shadowText(dc, hx, _h * 0.778, Graphics.FONT_SMALL, hr == null ? "--" : hr.toString(),
                    _valueColor, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
@@ -794,7 +794,7 @@ class FlightDeckView extends WatchUi.WatchFace {
 
     // Concentric discs from black at the edge to a dark tint at the centre.
     private function drawVignette(dc as Dc) as Void {
-        var steps = 24;
+        var steps = 64;     // enough steps that no rings are visible
         for (var i = 0; i < steps; i++) {
             var t = i.toFloat() / steps;
             var rr = (_cx * (1.0 - t)).toNumber();
