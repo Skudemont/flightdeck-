@@ -71,8 +71,11 @@ jobs:
           DEVELOPER_KEY_B64: ${{ secrets.DEVELOPER_KEY_B64 }}
         run: |
           if [ -n "$DEVELOPER_KEY_B64" ]; then
-            echo "$DEVELOPER_KEY_B64" | base64 -d > "$RUNNER_TEMP/developer_key.der"
-            echo "Using developer key from secret" | tee -a build/setup.log
+            # strip any spaces/line breaks a phone paste may have added
+            printf '%s' "$DEVELOPER_KEY_B64" | tr -d '[:space:]' | base64 -d > "$RUNNER_TEMP/developer_key.der" || true
+            echo "Using developer key from secret: $(printf '%s' "$DEVELOPER_KEY_B64" | tr -d '[:space:]' | wc -c) chars," \
+                 "$(wc -c < "$RUNNER_TEMP/developer_key.der") bytes, sha256 $(sha256sum "$RUNNER_TEMP/developer_key.der" | cut -c1-12)" \
+                 | tee -a build/setup.log
           else
             openssl genrsa -out "$RUNNER_TEMP/key.pem" 4096 2>/dev/null
             openssl pkcs8 -topk8 -inform PEM -outform DER -in "$RUNNER_TEMP/key.pem" \
