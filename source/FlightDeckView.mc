@@ -443,7 +443,7 @@ class FlightDeckView extends WatchUi.WatchFace {
         }
 
         var total = measurePairs(dc, labels, values, lblFont, valFont, gap, pairGap);
-        if (total > _w * 0.80) {
+        if (total > _w * 0.70) {   // keep clear of the side bars
             valFont = Graphics.FONT_SMALL;
             total = measurePairs(dc, labels, values, lblFont, valFont, gap, pairGap);
         }
