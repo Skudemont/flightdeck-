@@ -948,9 +948,6 @@ class FlightDeckView extends WatchUi.WatchFace {
             :period => new Time.Duration(600),
             :order => SensorHistory.ORDER_NEWEST_FIRST
         });
-        if (iter == null) {
-            return null;
-        }
         var sum = 0;
         var n = 0;
         var sample = iter.next();
@@ -974,9 +971,6 @@ class FlightDeckView extends WatchUi.WatchFace {
             :period => 1,
             :order => SensorHistory.ORDER_NEWEST_FIRST
         });
-        if (iter == null) {
-            return null;
-        }
         var sample = iter.next();
         if (sample == null) {
             return null;
@@ -1001,9 +995,6 @@ class FlightDeckView extends WatchUi.WatchFace {
             :period => 1,
             :order => SensorHistory.ORDER_NEWEST_FIRST
         });
-        if (iter == null) {
-            return null;
-        }
         var sample = iter.next();
         if (sample == null) {
             return null;
