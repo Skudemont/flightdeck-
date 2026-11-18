@@ -15,8 +15,6 @@ import Toybox.WatchUi;
 // ---------------------------------------------------------------------------
 const HOME_OFFSET_SEC = 10800;      // Doha, UTC+3, no daylight saving
 const HOME_LABEL      = "DOH";
-const PACE_START_MIN  = 360;        // pace bug runs 06:00 ...
-const PACE_END_MIN    = 1320;       // ... to 22:00 local
 const GLYPH_FRAC      = 0.70;       // share of font height covered by digits (gradient span)
 
 // Bars: 70 degrees each, 20 degree gaps. 0 deg = 3 o'clock, counter-clockwise positive.
@@ -48,12 +46,6 @@ const QR_PEARL    = 0xF7E4EC;
 const C_SHADOW      = 0x060003;
 const C_SHADOW_SOFT = 0x14030B;
 const C_TRACK_INNER = 0x080205;
-const C_TUBE_HI     = 0xFFDCEB;
-const C_TUBE_LO     = 0x280012;
-const C_PANEL       = 0x1C1218;
-const C_PANEL_EDGE  = 0x5A3246;
-const C_PANEL_HI    = 0x965A73;
-const C_SEPARATOR   = 0x46283A;
 
 const THEME_QR    = 0;
 const THEME_EICAS = 1;
@@ -61,12 +53,12 @@ const THEME_EICAS = 1;
 // ---------------------------------------------------------------------------
 // Flight Deck watch face ("Depth" style)
 //
-//   Top bar     steps toward goal, magenta pace bug
+//   Top bar     steps toward goal
 //   Right bar   seconds (bottom -> top), number at the middle
-//   Bottom bar  watch battery, % above it
+//   Bottom bar  watch battery, % and predicted time left above it
 //   Left bar    Body Battery (bottom -> top), number at the middle
 //   Centre      date, local time, UTC line (+ Doha time when away from UTC+3)
-//   Panel       heart rate | EICAS messages (warnings, cautions, advisories, memos)
+//   Lower area  heart rate | EICAS messages (warnings, cautions, memos)
 //
 // Everything except the seconds bar/number and heart rate is drawn into an
 // off-screen bitmap once a minute; each second only the dynamic parts are
@@ -177,7 +169,7 @@ class FlightDeckView extends WatchUi.WatchFace {
             _timeGrad    = [QR_PEARL, QR_ROSE, QR_RASP];
             _smallGrad   = [QR_PEARL, QR_BLUSH, QR_ROSE];
             // Bars run from deep burgundy at their start to blush at full
-            _stepsGrad   = [QR_DEEP, QR_RASP, QR_ROSE, QR_BLUSH];
+            _stepsGrad   = [QR_BURGUNDY, QR_RASP, QR_ROSE, QR_BLUSH, QR_PEARL];
             _secGrad     = _stepsGrad;
             _batGrad     = _stepsGrad;
             _bbGrad      = _stepsGrad;
@@ -187,7 +179,7 @@ class FlightDeckView extends WatchUi.WatchFace {
             _stepsColor  = QR_BLUSH;
             _bbColor     = QR_BLUSH;
             _labelColor  = 0x8C7380;
-            _trackColor  = 0x18060E;
+            _trackColor  = 0x2C0B1B;
             _vignette    = 0x2E081A;
             _aodColor    = 0x8F6A7B;
             _aodDimColor = 0x6B2D4C;
@@ -300,7 +292,7 @@ class FlightDeckView extends WatchUi.WatchFace {
         drawTrack(dc, BOTTOM_START, false);
         drawTrack(dc, LEFT_START, true);
 
-        // ---- Top: steps + pace bug -----------------------------------------
+        // ---- Top: steps ------------------------------------------------------
         var steps = am.steps;
         var goal = am.stepGoal;
         var stepFrac = 0.0;
@@ -308,7 +300,6 @@ class FlightDeckView extends WatchUi.WatchFace {
             stepFrac = steps.toFloat() / goal;
         }
         drawFill(dc, TOP_START, true, stepFrac, _stepsGrad);
-        drawPaceBug(dc, paceFraction(clock));
         shadowText(dc, _cx, _h * 0.105, Graphics.FONT_TINY,
                    steps == null ? "--" : steps.toString(), _stepsColor, center);
 
@@ -324,8 +315,14 @@ class FlightDeckView extends WatchUi.WatchFace {
             batColor = C_AMBER;
         }
         drawFill(dc, BOTTOM_START, false, battery / 100.0, batGrad);
-        shadowText(dc, _cx, _h * 0.885, Graphics.FONT_TINY,
-                   battery.toNumber().toString() + "%", batColor, center);
+        var batStr = battery.toNumber().toString() + "%";
+        if (stats has :batteryInDays) {
+            var days = stats.batteryInDays;
+            if (days != null && days > 0) {
+                batStr = batStr + "  " + formatEndurance(days);   // Garmin's own prediction
+            }
+        }
+        shadowText(dc, _cx, _h * 0.89, Graphics.FONT_XTINY, batStr, batColor, center);
 
         // ---- Left: Body Battery --------------------------------------------
         var bb = readBodyBattery();
@@ -353,8 +350,7 @@ class FlightDeckView extends WatchUi.WatchFace {
         // ---- UTC (+ Doha when away) -------------------------------------------
         drawZoneLine(dc, clock);
 
-        // ---- Glass panel: HR label | EICAS ------------------------------------
-        drawPanel(dc);
+        // ---- HR | EICAS ---------------------------------------------------------
         var hx = _cx - (_w * 0.15).toNumber();
         dc.setColor(_labelColor, Graphics.COLOR_TRANSPARENT);
         dc.drawText(hx, _h * 0.686, Graphics.FONT_XTINY, "HR", center);
@@ -484,30 +480,6 @@ class FlightDeckView extends WatchUi.WatchFace {
         return total + pairGap * (labels.size() - 1);
     }
 
-    private function drawPanel(dc as Dc) as Void {
-        var x = (_w * 0.22).toNumber();
-        var y = (_h * 0.655).toNumber();
-        var pw = (_w * 0.56).toNumber();
-        var ph = (_h * 0.18).toNumber();
-        var rad = (14 * _s).toNumber();
-
-        // shadow below, then frosted fill, edge and top highlight
-        dc.setColor(C_SHADOW, Graphics.COLOR_TRANSPARENT);
-        dc.fillRoundedRectangle(x, y + (4 * _s).toNumber(), pw, ph, rad);
-        dc.setColor(C_PANEL, Graphics.COLOR_TRANSPARENT);
-        dc.fillRoundedRectangle(x, y, pw, ph, rad);
-        dc.setPenWidth(1);
-        dc.setColor(C_PANEL_EDGE, Graphics.COLOR_TRANSPARENT);
-        dc.drawRoundedRectangle(x, y, pw, ph, rad);
-        dc.setColor(C_PANEL_HI, Graphics.COLOR_TRANSPARENT);
-        dc.drawLine(x + rad, y, x + pw - rad, y);
-
-        // separator between HR and the EICAS column
-        var sep = _cx - (_w * 0.05).toNumber();
-        dc.setColor(C_SEPARATOR, Graphics.COLOR_TRANSPARENT);
-        dc.drawLine(sep, (_h * 0.675).toNumber(), sep, (_h * 0.815).toNumber());
-    }
-
     // EICAS column: warnings (red), cautions (amber), advisories (amber,
     // indented), memos (white). Blank when everything is normal.
     private function drawEicas(dc as Dc, ds as System.DeviceSettings,
@@ -528,16 +500,9 @@ class FlightDeckView extends WatchUi.WatchFace {
         if (!ds.phoneConnected) {
             addMsg(texts, colors, boxed, indent, "LINK LOST", C_AMBER, false, false);
         }
-        // Advisories
-        var move = am.moveBarLevel;
-        if (move != null && move > ActivityMonitor.MOVE_BAR_LEVEL_MIN) {
-            addMsg(texts, colors, boxed, indent, "MOVE", C_AMBER, false, true);
-        }
         // Memos
-        var n = ds.notificationCount;
-        if (n > 0) {
-            addMsg(texts, colors, boxed, indent, n == 1 ? "1 MESSAGE" : n.toString() + " MESSAGES",
-                   C_WHITE, false, false);
+        if (ds.notificationCount > 0) {
+            addMsg(texts, colors, boxed, indent, "COMM", C_WHITE, false, false);   // like a datalink message
         }
         if (ds.alarmCount > 0) {
             addMsg(texts, colors, boxed, indent, "ALARM SET", C_WHITE, false, false);
@@ -557,7 +522,7 @@ class FlightDeckView extends WatchUi.WatchFace {
         var font = Graphics.FONT_XTINY;
         var fh = dc.getFontHeight(font);
         var lineH = (fh * 0.92).toNumber();
-        var panelMid = (_h * 0.745).toNumber();
+        var panelMid = (_h * 0.735).toNumber();
         var y0 = panelMid - (lineH * (count - 1)) / 2;
         var x0 = _cx - (_w * 0.05).toNumber() + (10 * _s).toNumber();
         var leftV = Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER;
@@ -691,12 +656,22 @@ class FlightDeckView extends WatchUi.WatchFace {
         capAt(dc, startDeg, gradColor(stops, 0.0));
         capAt(dc, endDeg, gradColor(stops, fill.toFloat() / BAR_SPAN));
 
-        // tube shading: highlight on the outer edge, shade on the inner edge
+        // tube shading, tinted from the local fill colour so the gradient
+        // stays visible: lighter on the outer edge, darker on the inner edge
         dc.setPenWidth(2);
-        dc.setColor(C_TUBE_HI, Graphics.COLOR_TRANSPARENT);
-        dc.drawArc(_cx, _cy, _r + _pen / 2 - 2, dir, normDeg(startDeg), normDeg(endDeg));
-        dc.setColor(C_TUBE_LO, Graphics.COLOR_TRANSPARENT);
-        dc.drawArc(_cx, _cy, _r - _pen / 2 + 2, dir, normDeg(startDeg), normDeg(endDeg));
+        for (var k = 0; k < fill; k += 3) {
+            var kEnd = k + 4;
+            if (kEnd > fill) {
+                kEnd = fill;
+            }
+            var c = gradColor(stops, k.toFloat() / BAR_SPAN);
+            var a0 = normDeg(startDeg + sign * k);
+            var a1 = normDeg(startDeg + sign * kEnd);
+            dc.setColor(lerpColor(c, 0xFFFFFF, 0.35), Graphics.COLOR_TRANSPARENT);
+            dc.drawArc(_cx, _cy, _r + _pen / 2 - 2, dir, a0, a1);
+            dc.setColor(lerpColor(c, 0x000000, 0.55), Graphics.COLOR_TRANSPARENT);
+            dc.drawArc(_cx, _cy, _r - _pen / 2 + 2, dir, a0, a1);
+        }
         dc.setPenWidth(1);
     }
 
@@ -704,45 +679,6 @@ class FlightDeckView extends WatchUi.WatchFace {
         var a = Math.toRadians(deg);
         dc.setColor(color, Graphics.COLOR_TRANSPARENT);
         dc.fillCircle(_cx + _r * Math.cos(a), _cy - _r * Math.sin(a), _pen / 2);
-    }
-
-    // Magenta bug pointing at the steps bar: where you should be by now.
-    private function drawPaceBug(dc as Dc, frac as Float) as Void {
-        var a = Math.toRadians(TOP_START - BAR_SPAN * frac);
-        var ux = Math.cos(a);
-        var uy = -Math.sin(a);
-        var tx = -uy;
-        var ty = ux;
-        var tipR = _r - _pen / 2 - 1;
-        var baseR = tipR - 13 * _s;
-        var hw = 8 * _s;
-
-        dc.setColor(C_MAGENTA, Graphics.COLOR_TRANSPARENT);
-        dc.fillPolygon([
-            [_cx + ux * tipR, _cy + uy * tipR],
-            [_cx + ux * baseR + tx * hw, _cy + uy * baseR + ty * hw],
-            [_cx + ux * baseR - tx * hw, _cy + uy * baseR - ty * hw]
-        ]);
-        var lw = (3 * _s).toNumber();
-        if (lw < 2) {
-            lw = 2;
-        }
-        var ro = _r + _pen / 2;
-        var ri = _r - _pen / 2;
-        dc.setPenWidth(lw);
-        dc.drawLine(_cx + ux * ro, _cy + uy * ro, _cx + ux * ri, _cy + uy * ri);
-        dc.setPenWidth(1);
-    }
-
-    private function paceFraction(clock as System.ClockTime) as Float {
-        var m = clock.hour * 60 + clock.min;
-        if (m <= PACE_START_MIN) {
-            return 0.0;
-        }
-        if (m >= PACE_END_MIN) {
-            return 1.0;
-        }
-        return (m - PACE_START_MIN).toFloat() / (PACE_END_MIN - PACE_START_MIN);
     }
 
     // -----------------------------------------------------------------------
@@ -861,6 +797,15 @@ class FlightDeckView extends WatchUi.WatchFace {
             hour = 12;
         }
         return hour.toString() + ":" + min;
+    }
+
+    // Predicted battery time left, e.g. "9d 4h" or "14h"
+    private function formatEndurance(days as Float) as String {
+        var hours = (days * 24).toNumber();
+        if (hours >= 24) {
+            return (hours / 24).toString() + "d " + (hours % 24).toString() + "h";
+        }
+        return hours.toString() + "h";
     }
 
     // Aviation style, e.g. "18:06Z"
