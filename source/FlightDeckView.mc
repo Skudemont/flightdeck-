@@ -17,6 +17,12 @@ const HOME_OFFSET_SEC = 10800;      // Doha, UTC+3, no daylight saving
 const HOME_LABEL      = "DOH";
 const GLYPH_FRAC      = 0.70;       // share of font height covered by digits (gradient span)
 
+// EICAS thresholds
+const HR_HIGH_BPM     = 100;        // caution: 10-minute average above this, outside an activity
+const STRESS_HIGH     = 76;         // caution: 10-minute average stress at or above (Garmin "high")
+const SPO2_WARN       = 88;         // warning: latest Pulse Ox reading below this (last 2 h)
+const CABIN_ALT_FT    = 3000;       // memo: barometric altitude above this
+
 // Bars: 70 degrees each, 20 degree gaps. 0 deg = 3 o'clock, counter-clockwise positive.
 const BAR_SPAN     = 70;
 const TOP_START    = 125;   // steps, fills left -> right (clockwise)
@@ -98,6 +104,10 @@ class FlightDeckView extends WatchUi.WatchFace {
     private var _labelColor as Number = 0x7A7A7A;
     private var _trackColor as Number = 0x1A1A1A;
     private var _vignette as Number = 0x0A1418;
+    private var _domeEdge as Number = 0x020406;
+    private var _dome as Number = 0x0C1A20;
+    private var _domeTop as Number = 0x14262E;
+    private var _sheen as Number = 0x2E4650;
     private var _aodColor as Number = 0x9A9A9A;
     private var _aodDimColor as Number = 0x3F7F88;
 
@@ -162,6 +172,10 @@ class FlightDeckView extends WatchUi.WatchFace {
             _labelColor  = 0x7A7A7A;
             _trackColor  = 0x1A1A1A;
             _vignette    = 0x0A1418;
+            _domeEdge    = 0x020406;
+            _dome        = 0x0C1A20;
+            _domeTop     = 0x14262E;
+            _sheen       = 0x2E4650;
             _aodColor    = 0x9A9A9A;
             _aodDimColor = 0x3F7F88;
         } else {
@@ -181,6 +195,10 @@ class FlightDeckView extends WatchUi.WatchFace {
             _labelColor  = 0x8C7380;
             _trackColor  = 0x2C0B1B;
             _vignette    = 0x2E081A;
+            _domeEdge    = 0x0A0206;
+            _dome        = 0x2A0818;
+            _domeTop     = 0x3C0E25;
+            _sheen       = 0x5A2A40;
             _aodColor    = 0x8F6A7B;
             _aodDimColor = 0x6B2D4C;
         }
@@ -280,6 +298,7 @@ class FlightDeckView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.clear();
         drawVignette(dc);
+        drawDome(dc);
 
         var ds = System.getDeviceSettings();
         var stats = System.getSystemStats();
@@ -354,7 +373,7 @@ class FlightDeckView extends WatchUi.WatchFace {
         var hx = _cx - (_w * 0.15).toNumber();
         dc.setColor(_labelColor, Graphics.COLOR_TRANSPARENT);
         dc.drawText(hx, _h * 0.686, Graphics.FONT_XTINY, "HR", center);
-        drawEicas(dc, ds, am, battery);
+        drawEicas(dc, ds, stats, battery);
     }
 
     // -----------------------------------------------------------------------
@@ -483,26 +502,50 @@ class FlightDeckView extends WatchUi.WatchFace {
     // EICAS column: warnings (red), cautions (amber), advisories (amber,
     // indented), memos (white). Blank when everything is normal.
     private function drawEicas(dc as Dc, ds as System.DeviceSettings,
-                               am as ActivityMonitor.Info, battery as Float) as Void {
+                               stats as System.Stats, battery as Float) as Void {
         var texts = [] as Array<String>;
         var colors = [] as Array<Number>;
         var boxed = [] as Array<Boolean>;
         var indent = [] as Array<Boolean>;
 
-        // Warnings
+        // Warnings (red)
         if (battery <= 10.0) {
             addMsg(texts, colors, boxed, indent, "BATT LOW", C_RED, true, false);
         }
-        // Cautions
+        var spo2 = recentSpO2();
+        if (spo2 != null && spo2 < SPO2_WARN) {
+            addMsg(texts, colors, boxed, indent, "SPO2 LOW", C_RED, true, false);
+        }
+
+        // Cautions (amber)
         if (battery > 10.0 && battery <= 20.0) {
             addMsg(texts, colors, boxed, indent, "BATT LOW", C_AMBER, true, false);
         }
         if (!ds.phoneConnected) {
             addMsg(texts, colors, boxed, indent, "LINK LOST", C_AMBER, false, false);
         }
-        // Memos
+        if (!activityRunning()) {
+            var hrAvg = averageHeartRate();
+            if (hrAvg != null && hrAvg > HR_HIGH_BPM) {
+                addMsg(texts, colors, boxed, indent, "HR HIGH", C_AMBER, false, false);
+            }
+        }
+        var stress = averageStress();
+        if (stress != null && stress >= STRESS_HIGH) {
+            addMsg(texts, colors, boxed, indent, "STRESS HIGH", C_AMBER, false, false);
+        }
+
+        // Memos (white)
         if (ds.notificationCount > 0) {
             addMsg(texts, colors, boxed, indent, "COMM", C_WHITE, false, false);   // like a datalink message
+        }
+        var ft = elevationFeet();
+        if (ft != null && ft > CABIN_ALT_FT) {
+            addMsg(texts, colors, boxed, indent, "CAB ALT " + ((ft + 50) / 100 * 100).toString(),
+                   C_WHITE, false, false);
+        }
+        if ((stats has :charging) && stats.charging) {
+            addMsg(texts, colors, boxed, indent, "CHARGING", C_WHITE, false, false);
         }
         if (ds.alarmCount > 0) {
             addMsg(texts, colors, boxed, indent, "ALARM SET", C_WHITE, false, false);
@@ -734,6 +777,37 @@ class FlightDeckView extends WatchUi.WatchFace {
         dc.clearClip();
     }
 
+    // Glass dome in the centre: dark rounded edge, lifted middle, soft sheen at the top.
+    private function drawDome(dc as Dc) as Void {
+        var r = (_w * 0.375).toNumber();
+        var edge = (16 * _s).toNumber();
+        var steps = 48;
+        for (var i = 0; i < steps; i++) {
+            var rr = r - (r * i) / steps;
+            if (rr < 1) {
+                break;
+            }
+            var depth = r - rr;
+            var c = (depth < edge)
+                ? lerpColor(_domeEdge, _dome, depth.toFloat() / edge)
+                : lerpColor(_dome, _domeTop, (depth - edge).toFloat() / (r - edge));
+            dc.setColor(c, Graphics.COLOR_TRANSPARENT);
+            dc.fillCircle(_cx, _cy, rr);
+        }
+
+        // sheen: stacked ellipses, lightest in the middle
+        var sy = _cy - (_h * 0.19).toNumber();
+        var sa = (_w * 0.20).toNumber();
+        var sb = (_h * 0.07).toNumber();
+        var base = lerpColor(_dome, _domeTop, 0.3);
+        var layers = 10;
+        for (var j = 0; j < layers; j++) {
+            var f = j.toFloat() / layers;
+            dc.setColor(lerpColor(base, _sheen, f), Graphics.COLOR_TRANSPARENT);
+            dc.fillEllipse(_cx, sy, (sa * (1.0 - f * 0.7)).toNumber(), (sb * (1.0 - f * 0.7)).toNumber());
+        }
+    }
+
     // Concentric discs from black at the edge to a dark tint at the centre.
     private function drawVignette(dc as Dc) as Void {
         var steps = 64;     // enough steps that no rings are visible
@@ -843,6 +917,111 @@ class FlightDeckView extends WatchUi.WatchFace {
             }
         }
         return null;
+    }
+
+    // Average heart rate over the last 10 minutes (null if too few samples).
+    private function averageHeartRate() as Number? {
+        if (!(ActivityMonitor has :getHeartRateHistory)) {
+            return null;
+        }
+        var iter = ActivityMonitor.getHeartRateHistory(new Time.Duration(600), true);
+        var sum = 0;
+        var n = 0;
+        var sample = iter.next();
+        while (sample != null) {
+            var v = sample.heartRate;
+            if (v != null && v != ActivityMonitor.INVALID_HR_SAMPLE) {
+                sum += v;
+                n += 1;
+            }
+            sample = iter.next();
+        }
+        return n >= 3 ? sum / n : null;
+    }
+
+    // Average Garmin stress score over the last 10 minutes.
+    private function averageStress() as Number? {
+        if (!((Toybox has :SensorHistory) && (SensorHistory has :getStressHistory))) {
+            return null;
+        }
+        var iter = SensorHistory.getStressHistory({
+            :period => new Time.Duration(600),
+            :order => SensorHistory.ORDER_NEWEST_FIRST
+        });
+        if (iter == null) {
+            return null;
+        }
+        var sum = 0;
+        var n = 0;
+        var sample = iter.next();
+        while (sample != null) {
+            var d = sample.data;
+            if (d != null) {
+                sum += d.toNumber();
+                n += 1;
+            }
+            sample = iter.next();
+        }
+        return n >= 1 ? sum / n : null;
+    }
+
+    // Latest Pulse Ox reading, if it is less than two hours old.
+    private function recentSpO2() as Number? {
+        if (!((Toybox has :SensorHistory) && (SensorHistory has :getOxygenSaturationHistory))) {
+            return null;
+        }
+        var iter = SensorHistory.getOxygenSaturationHistory({
+            :period => 1,
+            :order => SensorHistory.ORDER_NEWEST_FIRST
+        });
+        if (iter == null) {
+            return null;
+        }
+        var sample = iter.next();
+        if (sample == null) {
+            return null;
+        }
+        var d = sample.data;
+        var when = sample.when;
+        if (d == null || when == null) {
+            return null;
+        }
+        if (Time.now().subtract(when).value() > 7200) {
+            return null;
+        }
+        return d.toNumber();
+    }
+
+    // Barometric altitude in feet (cabin altitude when flying).
+    private function elevationFeet() as Number? {
+        if (!((Toybox has :SensorHistory) && (SensorHistory has :getElevationHistory))) {
+            return null;
+        }
+        var iter = SensorHistory.getElevationHistory({
+            :period => 1,
+            :order => SensorHistory.ORDER_NEWEST_FIRST
+        });
+        if (iter == null) {
+            return null;
+        }
+        var sample = iter.next();
+        if (sample == null) {
+            return null;
+        }
+        var d = sample.data;
+        if (d == null) {
+            return null;
+        }
+        return (d * 3.28084).toNumber();
+    }
+
+    private function activityRunning() as Boolean {
+        var info = Activity.getActivityInfo();
+        if (info != null && (info has :timerState)) {
+            var st = info.timerState;
+            return st != null && st != Activity.TIMER_STATE_OFF;
+        }
+        return false;
     }
 
     // Called from the once-a-minute static layer.

@@ -1,6 +1,6 @@
 # Flight Deck — Garmin Venu 4 watch face
 
-A flight-deck style digital face in Qatar Airways burgundy with a "Depth" look (shadows, shaded bars, glass panel).
+A flight-deck style digital face in Qatar Airways burgundy with a "Depth" look (shadows, shaded bars, glass dome centre).
 For the Venu 4 41 mm (`venu441mm`) and 45 mm (`venu445mm`).
 
 ## Layout
@@ -16,13 +16,11 @@ For the Venu 4 41 mm (`venu441mm`) and 45 mm (`venu445mm`).
 | Glass panel | Heart rate, plus the EICAS column |
 
 ### EICAS column (blank when all normal)
-- **Warning**, red boxed: `BATT LOW` at ≤ 10 %
-- **Caution**, amber boxed: `BATT LOW` at ≤ 20 %
-- **Caution**, amber: `LINK LOST` when the phone is disconnected
-- **Advisory**, amber indented: `MOVE` when the move alert is due
-- **Memo**, white: `n MESSAGES`, `ALARM SET`, `DND`
+- **Warnings**, red boxed: `BATT LOW` (≤ 10 %), `SPO2 LOW` (latest Pulse Ox < 88 %, last 2 h)
+- **Cautions**, amber: `BATT LOW` (≤ 20 %, boxed), `LINK LOST`, `HR HIGH` (10-min average > 100 bpm, outside an activity), `STRESS HIGH` (10-min average ≥ 76)
+- **Memos**, white: `COMM` (unread notifications), `CAB ALT 6800` (barometric altitude above 3,000 ft), `CHARGING`, `ALARM SET`, `DND`
 
-Up to three lines, most important first.
+Up to three lines, most important first. Thresholds are constants at the top of `source/FlightDeckView.mc`.
 
 ### Always-on (AOD)
 Dim time + Zulu time (+ Doha time when away) only. It shifts a few pixels every minute and blanks alternate pixel rows (switching each minute), so no pixel stays lit for two minutes in a row. No bars, panel or background, so it stays well inside the AMOLED burn-in limits and uses very little power.
