@@ -2,7 +2,7 @@
 <!-- Flight Deck watch face for Garmin Venu 4 (41mm and 45mm) -->
 <iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
     <iq:application
-        id="4baabc7dc38745c59f5a81f99afc22d1"
+        id="d8240391d8334baeb6f07df46b456e2b"
         type="watchface"
         name="@Strings.AppName"
         entry="FlightDeckApp"
