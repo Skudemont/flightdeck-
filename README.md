@@ -18,7 +18,7 @@ For the Venu 4 41 mm (`venu441mm`) and 45 mm (`venu445mm`).
 ### EICAS column (blank when all normal)
 - **Warnings**, red boxed: `BATT LOW` (≤ 10 %), `SPO2 LOW` (latest Pulse Ox < 88 %, last 2 h)
 - **Cautions**, amber: `BATT LOW` (≤ 20 %, boxed), `LINK LOST`, `HR HIGH` (10-min average > 100 bpm, outside an activity), `STRESS HIGH` (10-min average ≥ 76)
-- **Memos**, white: `COMM` (unread notifications), `CAB ALT 6800` (barometric altitude above 3,000 ft), `CHARGING`, `ALARM SET`, `DND`
+- **Memos**, white: `COMM` (unread notifications), `CAB 6800` (barometric altitude above 3,000 ft), `CHARGING`, `ALARM SET`, `DND`
 
 Up to three lines, most important first. Thresholds are constants at the top of `source/FlightDeckView.mc`.
 

@@ -541,7 +541,7 @@ class FlightDeckView extends WatchUi.WatchFace {
         }
         var ft = elevationFeet();
         if (ft != null && ft > CABIN_ALT_FT) {
-            addMsg(texts, colors, boxed, indent, "CAB ALT " + ((ft + 50) / 100 * 100).toString(),
+            addMsg(texts, colors, boxed, indent, "CAB " + ((ft + 50) / 100 * 100).toString(),
                    C_WHITE, false, false);
         }
         if ((stats has :charging) && stats.charging) {
