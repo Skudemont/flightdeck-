@@ -1,0 +1,1513 @@
+[ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 12; @symbol_moduledef = [Strings,12,11,18]; ]
+    module Strings {
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [ThemeTitle,13,27,37]; @symbol_type<0> = [ResourceId,13,41,51]; ]
+        var ThemeTitle as ResourceId;
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [ThemeEicas,14,27,37]; @symbol_type<0> = [ResourceId,14,41,51]; ]
+        var ThemeEicas as ResourceId;
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [ShowSecondsTitle,15,27,43]; @symbol_type<0> = [ResourceId,15,47,57]; ]
+        var ShowSecondsTitle as ResourceId;
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [AppName,16,27,34]; @symbol_type<0> = [ResourceId,16,38,48]; ]
+        var AppName as ResourceId;
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [ThemeQR,17,27,34]; @symbol_type<0> = [ResourceId,17,38,48]; ]
+        var ThemeQR as ResourceId;
+    }
+    [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 20; @symbol_moduledef = [Styles,20,11,17]; ]
+    module Styles {
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 20; ]
+        <init> {
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 21; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,21,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 21; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 22; @position = 18; @symbol_constdef = [exclude,22,18,25]; @symbol_type<0> = [Boolean,22,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 25; @symbol_moduledef = [system_size__menu_header,25,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 25; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 26; @position = 18; @symbol_constdef = [width,26,18,23]; @symbol_type<0> = [Number,26,27,33]; ]
+            const width as Number = 390;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 27; @position = 18; @symbol_constdef = [height,27,18,24]; @symbol_type<0> = [Number,27,28,34]; ]
+            const height as Number = 90;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 30; @symbol_moduledef = [system_loc__hint_button_left_bottom,30,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 30; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 31; @position = 18; @symbol_constdef = [exclude,31,18,25]; @symbol_type<0> = [Boolean,31,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 34; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,34,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 34; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 35; @position = 18; @symbol_constdef = [exclude,35,18,25]; @symbol_type<0> = [Boolean,35,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 38; @symbol_moduledef = [prompt_loc__body_no_title,38,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 38; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 39; @position = 18; @symbol_constdef = [x,39,18,19]; @symbol_type<0> = [Number,39,23,29]; ]
+            const x as Number = 39;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 40; @position = 18; @symbol_constdef = [y,40,18,19]; @symbol_type<0> = [Number,40,23,29]; ]
+            const y as Number = 58;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 43; @symbol_moduledef = [system_icon_dark__about,43,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 43; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 44; @position = 18; @symbol_constdef = [filename,44,18,26]; @symbol_type<0> = [String,44,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_dark__about.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 45; @position = 18; @symbol_constdef = [compress,45,18,26]; @symbol_type<0> = [String,45,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 46; @position = 18; @symbol_constdef = [dithering,46,18,27]; @symbol_type<0> = [String,46,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 47; @position = 18; @symbol_constdef = [automaticPalette,47,18,34]; @symbol_type<0> = [String,47,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 50; @symbol_moduledef = [system_icon_light__question,50,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 50; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 51; @position = 18; @symbol_constdef = [filename,51,18,26]; @symbol_type<0> = [String,51,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__question.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 52; @position = 18; @symbol_constdef = [compress,52,18,26]; @symbol_type<0> = [String,52,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 53; @position = 18; @symbol_constdef = [dithering,53,18,27]; @symbol_type<0> = [String,53,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 54; @position = 18; @symbol_constdef = [automaticPalette,54,18,34]; @symbol_type<0> = [String,54,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 57; @symbol_moduledef = [system_loc__hint_button_left_top,57,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 57; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 58; @position = 18; @symbol_constdef = [exclude,58,18,25]; @symbol_type<0> = [Boolean,58,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 61; @symbol_moduledef = [prompt_font__title,61,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 61; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 62 18 ]
+                symbol [ Graphics %tmp.1 62 34 42 ];
+                %tmp.1 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.2 62 43 62 ];
+                %tmp.2 = getv %tmp.1 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.3 62 63 71 ];
+                %tmp.3 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.4 62 72 92 ];
+                %tmp.4 = getv %tmp.3 :TEXT_JUSTIFY_VCENTER;
+                %tmp.5 = bitor %tmp.2 %tmp.4;
+                putv self :justification %tmp.5;
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 63 18 ]
+                symbol [ Graphics %tmp.6 63 25 33 ];
+                %tmp.6 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.7 63 34 44 ];
+                %tmp.7 = getv %tmp.6 :FONT_XTINY;
+                putv self :font %tmp.7;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 62; @position = 18; @symbol_constdef = [justification,62,18,31]; ]
+            const justification;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 63; @position = 18; @symbol_constdef = [font,63,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 66; @symbol_moduledef = [system_icon_dark__discard,66,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 66; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 67; @position = 18; @symbol_constdef = [filename,67,18,26]; @symbol_type<0> = [String,67,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_dark__discard.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 68; @position = 18; @symbol_constdef = [compress,68,18,26]; @symbol_type<0> = [String,68,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 69; @position = 18; @symbol_constdef = [dithering,69,18,27]; @symbol_type<0> = [String,69,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 70; @position = 18; @symbol_constdef = [automaticPalette,70,18,34]; @symbol_type<0> = [String,70,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 73; @symbol_moduledef = [system_size__menu_item,73,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 73; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 74; @position = 18; @symbol_constdef = [width,74,18,23]; @symbol_type<0> = [Number,74,27,33]; ]
+            const width as Number = 390;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 75; @position = 18; @symbol_constdef = [height,75,18,24]; @symbol_type<0> = [Number,75,28,34]; ]
+            const height as Number = 100;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 78; @symbol_moduledef = [system_color_dark__text,78,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 78; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 80 18 ]
+                symbol [ Graphics %tmp.8 80 31 39 ];
+                %tmp.8 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.9 80 40 57 ];
+                %tmp.9 = getv %tmp.8 :COLOR_TRANSPARENT;
+                putv self :background %tmp.9;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 79; @position = 18; @symbol_constdef = [color,79,18,23]; @symbol_type<0> = [Number,79,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 80; @position = 18; @symbol_constdef = [background,80,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 83; @symbol_moduledef = [system_icon_destructive__discard,83,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 83; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 84; @position = 18; @symbol_constdef = [filename,84,18,26]; @symbol_type<0> = [String,84,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_destructive__discard.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 85; @position = 18; @symbol_constdef = [dithering,85,18,27]; @symbol_type<0> = [String,85,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 86; @position = 18; @symbol_constdef = [packingFormat,86,18,31]; @symbol_type<0> = [String,86,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 89; @symbol_moduledef = [system_icon_dark__hint_action_menu,89,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 89; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 90; @position = 18; @symbol_constdef = [exclude,90,18,25]; @symbol_type<0> = [Boolean,90,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 93; @symbol_moduledef = [prompt_size__title,93,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 93; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [width,94,18,23]; @symbol_type<0> = [Number,94,27,33]; ]
+            const width as Number = 165;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [height,95,18,24]; @symbol_type<0> = [Number,95,28,34]; ]
+            const height as Number = 70;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 98; @symbol_moduledef = [confirmation_font__body,98,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 98; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 99 18 ]
+                symbol [ Graphics %tmp.10 99 34 42 ];
+                %tmp.10 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.11 99 43 62 ];
+                %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.12 99 63 71 ];
+                %tmp.12 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.13 99 72 92 ];
+                %tmp.13 = getv %tmp.12 :TEXT_JUSTIFY_VCENTER;
+                %tmp.14 = bitor %tmp.11 %tmp.13;
+                putv self :justification %tmp.14;
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 100 18 ]
+                symbol [ Graphics %tmp.15 100 25 33 ];
+                %tmp.15 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.16 100 34 43 ];
+                %tmp.16 = getv %tmp.15 :FONT_TINY;
+                putv self :font %tmp.16;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [justification,99,18,31]; ]
+            const justification;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [font,100,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 103; @symbol_moduledef = [system_color_dark__background,103,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 103; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [color,104,18,23]; @symbol_type<0> = [Number,104,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 105; @position = 18; @symbol_constdef = [background,105,18,28]; @symbol_type<0> = [Number,105,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 108; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,108,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [exclude,109,18,25]; @symbol_type<0> = [Boolean,109,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 112; @symbol_moduledef = [system_size__launch_icon,112,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 112; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [scaleX,113,18,24]; @symbol_type<0> = [Number,113,28,34]; ]
+            const scaleX as Number = 54;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [scaleY,114,18,24]; @symbol_type<0> = [Number,114,28,34]; ]
+            const scaleY as Number = 54;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [scaleRelativeTo,115,18,33]; @symbol_type<0> = [String,115,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 118; @symbol_moduledef = [confirmation_input__confirm,118,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 118; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [y1,119,18,20]; @symbol_type<0> = [Number,119,24,30]; ]
+            const y1 as Number = 274;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [x1,120,18,20]; @symbol_type<0> = [Number,120,24,30]; ]
+            const x1 as Number = 200;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 121; @position = 18; @symbol_constdef = [y2,121,18,20]; @symbol_type<0> = [Number,121,24,30]; ]
+            const y2 as Number = 348;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [x2,122,18,20]; @symbol_type<0> = [Number,122,24,30]; ]
+            const x2 as Number = 326;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 125; @symbol_moduledef = [prompt_font__body_with_title,125,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 125; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 126 18 ]
+                symbol [ Graphics %tmp.17 126 34 42 ];
+                %tmp.17 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.18 126 43 62 ];
+                %tmp.18 = getv %tmp.17 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.18;
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 127 18 ]
+                symbol [ Graphics %tmp.19 127 25 33 ];
+                %tmp.19 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.20 127 34 43 ];
+                %tmp.20 = getv %tmp.19 :FONT_TINY;
+                putv self :font %tmp.20;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 126; @position = 18; @symbol_constdef = [justification,126,18,31]; ]
+            const justification;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [font,127,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 130; @symbol_moduledef = [confirmation_loc__body,130,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 130; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 131; @position = 18; @symbol_constdef = [x,131,18,19]; @symbol_type<0> = [Number,131,23,29]; ]
+            const x as Number = 80;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [y,132,18,19]; @symbol_type<0> = [Number,132,23,29]; ]
+            const y as Number = 78;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 135; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,135,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 135; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 136; @position = 18; @symbol_constdef = [exclude,136,18,25]; @symbol_type<0> = [Boolean,136,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 139; @symbol_moduledef = [prompt_color_dark__background,139,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 139; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 140; @position = 18; @symbol_constdef = [color,140,18,23]; @symbol_type<0> = [Number,140,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 141; @position = 18; @symbol_constdef = [background,141,18,28]; @symbol_type<0> = [Number,141,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 144; @symbol_moduledef = [system_icon_destructive__hint_action_menu,144,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 144; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 145; @position = 18; @symbol_constdef = [exclude,145,18,25]; @symbol_type<0> = [Boolean,145,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 148; @symbol_moduledef = [system_loc__hint_action_menu,148,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 148; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 149; @position = 18; @symbol_constdef = [x,149,18,19]; @symbol_type<0> = [Number,149,23,29]; ]
+            const x as Number = 361;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 150; @position = 18; @symbol_constdef = [y,150,18,19]; @symbol_type<0> = [Number,150,23,29]; ]
+            const y as Number = 156;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 153; @symbol_moduledef = [confirmation_icon__hint_confirm,153,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 153; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 154; @position = 18; @symbol_constdef = [filename,154,18,26]; @symbol_type<0> = [String,154,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 155; @position = 18; @symbol_constdef = [dithering,155,18,27]; @symbol_type<0> = [String,155,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [packingFormat,156,18,31]; @symbol_type<0> = [String,156,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 159; @symbol_moduledef = [system_loc__hint_button_left_middle,159,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 159; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 160; @position = 18; @symbol_constdef = [exclude,160,18,25]; @symbol_type<0> = [Boolean,160,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 163; @symbol_moduledef = [prompt_size__body_no_title,163,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 163; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 164; @position = 18; @symbol_constdef = [width,164,18,23]; @symbol_type<0> = [Number,164,27,33]; ]
+            const width as Number = 312;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 165; @position = 18; @symbol_constdef = [height,165,18,24]; @symbol_type<0> = [Number,165,28,34]; ]
+            const height as Number = 253;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 168; @symbol_moduledef = [system_icon_light__hint_button_left_top,168,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 168; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 169; @position = 18; @symbol_constdef = [exclude,169,18,25]; @symbol_type<0> = [Boolean,169,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 172; @symbol_moduledef = [prompt_color_light__background,172,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 172; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [color,173,18,23]; @symbol_type<0> = [Number,173,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 174; @position = 18; @symbol_constdef = [background,174,18,28]; @symbol_type<0> = [Number,174,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 177; @symbol_moduledef = [confirmation_input__delete,177,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 177; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 178 18 ]
+                symbol [ WatchUi %tmp.21 178 27 34 ];
+                %tmp.21 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.22 178 35 44 ];
+                %tmp.22 = getv %tmp.21 :KEY_ENTER;
+                putv self :button %tmp.22;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [button,178,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 181; @symbol_moduledef = [system_icon_dark__hint_button_left_top,181,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 181; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [exclude,182,18,25]; @symbol_type<0> = [Boolean,182,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 185; @symbol_moduledef = [system_input__action_menu,185,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 185; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 186 18 ]
+                symbol [ WatchUi %tmp.23 186 27 34 ];
+                %tmp.23 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ACTION_MENU %tmp.24 186 35 50 ];
+                %tmp.24 = getv %tmp.23 :KEY_ACTION_MENU;
+                putv self :button %tmp.24;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 186; @position = 18; @symbol_constdef = [button,186,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 189; @symbol_moduledef = [system_icon_light__save,189,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 189; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 190; @position = 18; @symbol_constdef = [filename,190,18,26]; @symbol_type<0> = [String,190,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__save.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 191; @position = 18; @symbol_constdef = [compress,191,18,26]; @symbol_type<0> = [String,191,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [dithering,192,18,27]; @symbol_type<0> = [String,192,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [automaticPalette,193,18,34]; @symbol_type<0> = [String,193,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 196; @symbol_moduledef = [prompt_color_light__body,196,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 196; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 198 18 ]
+                symbol [ Graphics %tmp.25 198 31 39 ];
+                %tmp.25 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.26 198 40 57 ];
+                %tmp.26 = getv %tmp.25 :COLOR_TRANSPARENT;
+                putv self :background %tmp.26;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [color,197,18,23]; @symbol_type<0> = [Number,197,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [background,198,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 201; @symbol_moduledef = [system_loc__subwindow,201,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 201; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [exclude,202,18,25]; @symbol_type<0> = [Boolean,202,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 205; @symbol_moduledef = [system_icon_light__warning,205,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 205; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [filename,206,18,26]; @symbol_type<0> = [String,206,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__warning.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [compress,207,18,26]; @symbol_type<0> = [String,207,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 208; @position = 18; @symbol_constdef = [dithering,208,18,27]; @symbol_type<0> = [String,208,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 209; @position = 18; @symbol_constdef = [automaticPalette,209,18,34]; @symbol_type<0> = [String,209,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 212; @symbol_moduledef = [confirmation_color_light__body,212,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 212; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 214 18 ]
+                symbol [ Graphics %tmp.27 214 31 39 ];
+                %tmp.27 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.28 214 40 57 ];
+                %tmp.28 = getv %tmp.27 :COLOR_TRANSPARENT;
+                putv self :background %tmp.28;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 213; @position = 18; @symbol_constdef = [color,213,18,23]; @symbol_type<0> = [Number,213,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 214; @position = 18; @symbol_constdef = [background,214,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 217; @symbol_moduledef = [confirmation_icon_light__hint_keep,217,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 217; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 218; @position = 18; @symbol_constdef = [filename,218,18,26]; @symbol_type<0> = [String,218,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 219; @position = 18; @symbol_constdef = [dithering,219,18,27]; @symbol_type<0> = [String,219,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [packingFormat,220,18,31]; @symbol_type<0> = [String,220,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 223; @symbol_moduledef = [activity_color_light__background,223,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 223; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 224; @position = 18; @symbol_constdef = [color,224,18,23]; @symbol_type<0> = [Number,224,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [background,225,18,28]; @symbol_type<0> = [Number,225,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 228; @symbol_moduledef = [system_icon_positive__hint_button_right_top,228,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 228; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 229; @position = 18; @symbol_constdef = [filename,229,18,26]; @symbol_type<0> = [String,229,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 230; @position = 18; @symbol_constdef = [dithering,230,18,27]; @symbol_type<0> = [String,230,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 231; @position = 18; @symbol_constdef = [packingFormat,231,18,31]; @symbol_type<0> = [String,231,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 234; @symbol_moduledef = [system_size__screen,234,15,34]; ]
+        module system_size__screen {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 234; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [width,235,18,23]; @symbol_type<0> = [Number,235,27,33]; ]
+            const width as Number = 390;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [height,236,18,24]; @symbol_type<0> = [Number,236,28,34]; ]
+            const height as Number = 390;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 239; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,239,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 239; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [filename,240,18,26]; @symbol_type<0> = [String,240,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 241; @position = 18; @symbol_constdef = [dithering,241,18,27]; @symbol_type<0> = [String,241,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 242; @position = 18; @symbol_constdef = [packingFormat,242,18,31]; @symbol_type<0> = [String,242,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 245; @symbol_moduledef = [system_color_light__background,245,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 245; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [color,246,18,23]; @symbol_type<0> = [Number,246,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 247; @position = 18; @symbol_constdef = [background,247,18,28]; @symbol_type<0> = [Number,247,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 250; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,250,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 250; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [filename,251,18,26]; @symbol_type<0> = [String,251,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 252; @position = 18; @symbol_constdef = [dithering,252,18,27]; @symbol_type<0> = [String,252,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 253; @position = 18; @symbol_constdef = [packingFormat,253,18,31]; @symbol_type<0> = [String,253,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 256; @symbol_moduledef = [confirmation_loc__hint_confirm,256,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 256; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 257; @position = 18; @symbol_constdef = [x,257,18,19]; @symbol_type<0> = [Number,257,23,29]; ]
+            const x as Number = 262;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 258; @position = 18; @symbol_constdef = [horizontalJustification,258,18,41]; @symbol_type<0> = [String,258,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 259; @position = 18; @symbol_constdef = [y,259,18,19]; @symbol_type<0> = [Number,259,23,29]; ]
+            const y as Number = 268;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 262; @symbol_moduledef = [activity_color_dark__text,262,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 262; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 264 18 ]
+                symbol [ Graphics %tmp.29 264 31 39 ];
+                %tmp.29 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.30 264 40 57 ];
+                %tmp.30 = getv %tmp.29 :COLOR_TRANSPARENT;
+                putv self :background %tmp.30;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 263; @position = 18; @symbol_constdef = [color,263,18,23]; @symbol_type<0> = [Number,263,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [background,264,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 267; @symbol_moduledef = [confirmation_input__keep,267,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 267; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 268 18 ]
+                symbol [ WatchUi %tmp.31 268 27 34 ];
+                %tmp.31 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ESC %tmp.32 268 35 42 ];
+                %tmp.32 = getv %tmp.31 :KEY_ESC;
+                putv self :button %tmp.32;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 268; @position = 18; @symbol_constdef = [button,268,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 271; @symbol_moduledef = [prompt_loc__body_with_title,271,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 271; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 272; @position = 18; @symbol_constdef = [x,272,18,19]; @symbol_type<0> = [Number,272,23,29]; ]
+            const x as Number = 39;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 273; @position = 18; @symbol_constdef = [y,273,18,19]; @symbol_type<0> = [Number,273,23,29]; ]
+            const y as Number = 98;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 276; @symbol_moduledef = [system_icon_dark__search,276,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 276; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 277; @position = 18; @symbol_constdef = [filename,277,18,26]; @symbol_type<0> = [String,277,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_dark__search.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [compress,278,18,26]; @symbol_type<0> = [String,278,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [dithering,279,18,27]; @symbol_type<0> = [String,279,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [automaticPalette,280,18,34]; @symbol_type<0> = [String,280,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 283; @symbol_moduledef = [activity_color_light__text,283,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 283; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 285 18 ]
+                symbol [ Graphics %tmp.33 285 31 39 ];
+                %tmp.33 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.34 285 40 57 ];
+                %tmp.34 = getv %tmp.33 :COLOR_TRANSPARENT;
+                putv self :background %tmp.34;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [color,284,18,23]; @symbol_type<0> = [Number,284,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [background,285,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 288; @symbol_moduledef = [confirmation_icon__hint_keep,288,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 288; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [filename,289,18,26]; @symbol_type<0> = [String,289,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [dithering,290,18,27]; @symbol_type<0> = [String,290,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [packingFormat,291,18,31]; @symbol_type<0> = [String,291,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 294; @symbol_moduledef = [system_icon_dark__save,294,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 294; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 295; @position = 18; @symbol_constdef = [filename,295,18,26]; @symbol_type<0> = [String,295,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_dark__save.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 296; @position = 18; @symbol_constdef = [compress,296,18,26]; @symbol_type<0> = [String,296,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 297; @position = 18; @symbol_constdef = [dithering,297,18,27]; @symbol_type<0> = [String,297,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [automaticPalette,298,18,34]; @symbol_type<0> = [String,298,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 301; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,301,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 301; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 302; @position = 18; @symbol_constdef = [exclude,302,18,25]; @symbol_type<0> = [Boolean,302,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 305; @symbol_moduledef = [system_icon_light__search,305,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 305; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 306; @position = 18; @symbol_constdef = [filename,306,18,26]; @symbol_type<0> = [String,306,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__search.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 307; @position = 18; @symbol_constdef = [compress,307,18,26]; @symbol_type<0> = [String,307,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 308; @position = 18; @symbol_constdef = [dithering,308,18,27]; @symbol_type<0> = [String,308,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [automaticPalette,309,18,34]; @symbol_type<0> = [String,309,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 312; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,312,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 312; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [exclude,313,18,25]; @symbol_type<0> = [Boolean,313,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 316; @symbol_moduledef = [system_icon_positive__hint_button_left_top,316,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 316; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 317; @position = 18; @symbol_constdef = [exclude,317,18,25]; @symbol_type<0> = [Boolean,317,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 320; @symbol_moduledef = [system_loc__hint_button_right_bottom,320,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 320; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 321; @position = 18; @symbol_constdef = [x,321,18,19]; @symbol_type<0> = [Number,321,23,29]; ]
+            const x as Number = 322;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 322; @position = 18; @symbol_constdef = [y,322,18,19]; @symbol_type<0> = [Number,322,23,29]; ]
+            const y as Number = 258;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 325; @symbol_moduledef = [confirmation_icon_dark__hint_reject,325,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 325; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 326; @position = 18; @symbol_constdef = [filename,326,18,26]; @symbol_type<0> = [String,326,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 327; @position = 18; @symbol_constdef = [dithering,327,18,27]; @symbol_type<0> = [String,327,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [packingFormat,328,18,31]; @symbol_type<0> = [String,328,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 331; @symbol_moduledef = [confirmation_color_dark__body,331,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 331; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 333 18 ]
+                symbol [ Graphics %tmp.35 333 31 39 ];
+                %tmp.35 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.36 333 40 57 ];
+                %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+                putv self :background %tmp.36;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [color,332,18,23]; @symbol_type<0> = [Number,332,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [background,333,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 336; @symbol_moduledef = [confirmation_icon_light__hint_confirm,336,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 336; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [filename,337,18,26]; @symbol_type<0> = [String,337,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [dithering,338,18,27]; @symbol_type<0> = [String,338,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 339; @position = 18; @symbol_constdef = [packingFormat,339,18,31]; @symbol_type<0> = [String,339,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 342; @symbol_moduledef = [prompt_color_dark__title,342,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 342; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 344 18 ]
+                symbol [ Graphics %tmp.37 344 31 39 ];
+                %tmp.37 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.38 344 40 57 ];
+                %tmp.38 = getv %tmp.37 :COLOR_TRANSPARENT;
+                putv self :background %tmp.38;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [color,343,18,23]; @symbol_type<0> = [Number,343,27,33]; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [background,344,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 347; @symbol_moduledef = [system_icon_destructive__cancel,347,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 347; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [filename,348,18,26]; @symbol_type<0> = [String,348,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_destructive__cancel.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 349; @position = 18; @symbol_constdef = [dithering,349,18,27]; @symbol_type<0> = [String,349,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [packingFormat,350,18,31]; @symbol_type<0> = [String,350,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 353; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,353,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 353; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 354; @position = 18; @symbol_constdef = [filename,354,18,26]; @symbol_type<0> = [String,354,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 355; @position = 18; @symbol_constdef = [dithering,355,18,27]; @symbol_type<0> = [String,355,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 356; @position = 18; @symbol_constdef = [packingFormat,356,18,31]; @symbol_type<0> = [String,356,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 359; @symbol_moduledef = [prompt_loc__title,359,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 359; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 360; @position = 18; @symbol_constdef = [x,360,18,19]; @symbol_type<0> = [Number,360,23,29]; ]
+            const x as Number = 113;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 361; @position = 18; @symbol_constdef = [y,361,18,19]; @symbol_type<0> = [Number,361,23,29]; ]
+            const y as Number = 19;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 364; @symbol_moduledef = [confirmation_font_enhanced_readability__body,364,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 364; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 365 18 ]
+                symbol [ Graphics %tmp.39 365 34 42 ];
+                %tmp.39 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.40 365 43 62 ];
+                %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.41 365 63 71 ];
+                %tmp.41 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.42 365 72 92 ];
+                %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_VCENTER;
+                %tmp.43 = bitor %tmp.40 %tmp.42;
+                putv self :justification %tmp.43;
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 366 18 ]
+                symbol [ Graphics %tmp.44 366 25 33 ];
+                %tmp.44 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.45 366 34 44 ];
+                %tmp.45 = getv %tmp.44 :FONT_SMALL;
+                putv self :font %tmp.45;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 365; @position = 18; @symbol_constdef = [justification,365,18,31]; ]
+            const justification;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 366; @position = 18; @symbol_constdef = [font,366,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 369; @symbol_moduledef = [prompt_color_light__title,369,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 369; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 371 18 ]
+                symbol [ Graphics %tmp.46 371 31 39 ];
+                %tmp.46 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.47 371 40 57 ];
+                %tmp.47 = getv %tmp.46 :COLOR_TRANSPARENT;
+                putv self :background %tmp.47;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 370; @position = 18; @symbol_constdef = [color,370,18,23]; @symbol_type<0> = [Number,370,27,33]; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 371; @position = 18; @symbol_constdef = [background,371,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 374; @symbol_moduledef = [system_icon_dark__hint_button_right_top,374,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 374; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 375; @position = 18; @symbol_constdef = [filename,375,18,26]; @symbol_type<0> = [String,375,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [dithering,376,18,27]; @symbol_type<0> = [String,376,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [packingFormat,377,18,31]; @symbol_type<0> = [String,377,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 380; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,380,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 380; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [exclude,381,18,25]; @symbol_type<0> = [Boolean,381,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 384; @symbol_moduledef = [confirmation_icon_dark__hint_keep,384,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 384; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 385; @position = 18; @symbol_constdef = [filename,385,18,26]; @symbol_type<0> = [String,385,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 386; @position = 18; @symbol_constdef = [dithering,386,18,27]; @symbol_type<0> = [String,386,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [packingFormat,387,18,31]; @symbol_type<0> = [String,387,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 390; @symbol_moduledef = [system_icon_light__cancel,390,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 390; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [filename,391,18,26]; @symbol_type<0> = [String,391,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__cancel.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [compress,392,18,26]; @symbol_type<0> = [String,392,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 393; @position = 18; @symbol_constdef = [dithering,393,18,27]; @symbol_type<0> = [String,393,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 394; @position = 18; @symbol_constdef = [automaticPalette,394,18,34]; @symbol_type<0> = [String,394,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 397; @symbol_moduledef = [confirmation_icon_light__hint_reject,397,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 397; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 398; @position = 18; @symbol_constdef = [filename,398,18,26]; @symbol_type<0> = [String,398,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 399; @position = 18; @symbol_constdef = [dithering,399,18,27]; @symbol_type<0> = [String,399,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 400; @position = 18; @symbol_constdef = [packingFormat,400,18,31]; @symbol_type<0> = [String,400,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 403; @symbol_moduledef = [system_icon_light__about,403,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 403; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 404; @position = 18; @symbol_constdef = [filename,404,18,26]; @symbol_type<0> = [String,404,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__about.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 405; @position = 18; @symbol_constdef = [compress,405,18,26]; @symbol_type<0> = [String,405,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [dithering,406,18,27]; @symbol_type<0> = [String,406,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [automaticPalette,407,18,34]; @symbol_type<0> = [String,407,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 410; @symbol_moduledef = [system_size__toast_icon,410,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 410; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [scaleX,411,18,24]; @symbol_type<0> = [Number,411,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [scaleY,412,18,24]; @symbol_type<0> = [Number,412,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 413; @position = 18; @symbol_constdef = [scaleRelativeTo,413,18,33]; @symbol_type<0> = [String,413,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 416; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,416,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 416; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [exclude,417,18,25]; @symbol_type<0> = [Boolean,417,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 420; @symbol_moduledef = [confirmation_icon__hint_reject,420,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [filename,421,18,26]; @symbol_type<0> = [String,421,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [dithering,422,18,27]; @symbol_type<0> = [String,422,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 423; @position = 18; @symbol_constdef = [packingFormat,423,18,31]; @symbol_type<0> = [String,423,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 426; @symbol_moduledef = [system_icon_light__hint_action_menu,426,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 426; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [exclude,427,18,25]; @symbol_type<0> = [Boolean,427,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 430; @symbol_moduledef = [system_icon_light__hint_button_right_middle,430,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [exclude,431,18,25]; @symbol_type<0> = [Boolean,431,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 434; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,434,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 434; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [exclude,435,18,25]; @symbol_type<0> = [Boolean,435,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 438; @symbol_moduledef = [confirmation_loc__hint_reject,438,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 438; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 439; @position = 18; @symbol_constdef = [x,439,18,19]; @symbol_type<0> = [Number,439,23,29]; ]
+            const x as Number = 130;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [horizontalJustification,440,18,41]; @symbol_type<0> = [String,440,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [y,441,18,19]; @symbol_type<0> = [Number,441,23,29]; ]
+            const y as Number = 268;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 444; @symbol_moduledef = [confirmation_icon_dark__hint_delete,444,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [filename,445,18,26]; @symbol_type<0> = [String,445,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [dithering,446,18,27]; @symbol_type<0> = [String,446,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 447; @position = 18; @symbol_constdef = [packingFormat,447,18,31]; @symbol_type<0> = [String,447,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 450; @symbol_moduledef = [activity_color_dark__background,450,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 450; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 451; @position = 18; @symbol_constdef = [color,451,18,23]; @symbol_type<0> = [Number,451,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 452; @position = 18; @symbol_constdef = [background,452,18,28]; @symbol_type<0> = [Number,452,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 455; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,455,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 455; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [exclude,456,18,25]; @symbol_type<0> = [Boolean,456,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 459; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,459,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 459; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 460; @position = 18; @symbol_constdef = [exclude,460,18,25]; @symbol_type<0> = [Boolean,460,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 463; @symbol_moduledef = [system_size__menu_icon,463,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 463; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 464; @position = 18; @symbol_constdef = [scaleX,464,18,24]; @symbol_type<0> = [Number,464,28,34]; ]
+            const scaleX as Number = 45;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [scaleY,465,18,24]; @symbol_type<0> = [Number,465,28,34]; ]
+            const scaleY as Number = 45;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [scaleRelativeTo,466,18,33]; @symbol_type<0> = [String,466,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 469; @symbol_moduledef = [system_icon_destructive__warning,469,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [filename,470,18,26]; @symbol_type<0> = [String,470,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_destructive__warning.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [dithering,471,18,27]; @symbol_type<0> = [String,471,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 472; @position = 18; @symbol_constdef = [packingFormat,472,18,31]; @symbol_type<0> = [String,472,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 475; @symbol_moduledef = [system_loc__hint_button_right_middle,475,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 475; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 476; @position = 18; @symbol_constdef = [exclude,476,18,25]; @symbol_type<0> = [Boolean,476,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 479; @symbol_moduledef = [system_icon_dark__cancel,479,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 479; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 480; @position = 18; @symbol_constdef = [filename,480,18,26]; @symbol_type<0> = [String,480,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_dark__cancel.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [compress,481,18,26]; @symbol_type<0> = [String,481,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 482; @position = 18; @symbol_constdef = [dithering,482,18,27]; @symbol_type<0> = [String,482,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 483; @position = 18; @symbol_constdef = [automaticPalette,483,18,34]; @symbol_type<0> = [String,483,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 486; @symbol_moduledef = [prompt_size__body_with_title,486,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 486; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 487; @position = 18; @symbol_constdef = [width,487,18,23]; @symbol_type<0> = [Number,487,27,33]; ]
+            const width as Number = 312;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 488; @position = 18; @symbol_constdef = [height,488,18,24]; @symbol_type<0> = [Number,488,28,34]; ]
+            const height as Number = 215;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 491; @symbol_moduledef = [system_loc__hint_button_right_top,491,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 491; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 492; @position = 18; @symbol_constdef = [x,492,18,19]; @symbol_type<0> = [Number,492,23,29]; ]
+            const x as Number = 319;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 493; @position = 18; @symbol_constdef = [y,493,18,19]; @symbol_type<0> = [Number,493,23,29]; ]
+            const y as Number = 72;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 496; @symbol_moduledef = [system_color_light__text,496,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 496; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 498 18 ]
+                symbol [ Graphics %tmp.48 498 31 39 ];
+                %tmp.48 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.49 498 40 57 ];
+                %tmp.49 = getv %tmp.48 :COLOR_TRANSPARENT;
+                putv self :background %tmp.49;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 497; @position = 18; @symbol_constdef = [color,497,18,23]; @symbol_type<0> = [Number,497,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 498; @position = 18; @symbol_constdef = [background,498,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 501; @symbol_moduledef = [system_icon_light__check,501,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 501; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [filename,502,18,26]; @symbol_type<0> = [String,502,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__check.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [compress,503,18,26]; @symbol_type<0> = [String,503,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 504; @position = 18; @symbol_constdef = [dithering,504,18,27]; @symbol_type<0> = [String,504,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 505; @position = 18; @symbol_constdef = [automaticPalette,505,18,34]; @symbol_type<0> = [String,505,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 508; @symbol_moduledef = [confirmation_input__reject,508,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 508; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 509; @position = 18; @symbol_constdef = [y1,509,18,20]; @symbol_type<0> = [Number,509,24,30]; ]
+            const y1 as Number = 274;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 510; @position = 18; @symbol_constdef = [x1,510,18,20]; @symbol_type<0> = [Number,510,24,30]; ]
+            const x1 as Number = 66;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [y2,511,18,20]; @symbol_type<0> = [Number,511,24,30]; ]
+            const y2 as Number = 348;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 512; @position = 18; @symbol_constdef = [x2,512,18,20]; @symbol_type<0> = [Number,512,24,30]; ]
+            const x2 as Number = 192;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 515; @symbol_moduledef = [system_icon_light__revert,515,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 515; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [filename,516,18,26]; @symbol_type<0> = [String,516,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__revert.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [compress,517,18,26]; @symbol_type<0> = [String,517,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 518; @position = 18; @symbol_constdef = [dithering,518,18,27]; @symbol_type<0> = [String,518,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 519; @position = 18; @symbol_constdef = [automaticPalette,519,18,34]; @symbol_type<0> = [String,519,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 522; @symbol_moduledef = [system_size__subwindow,522,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 522; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [exclude,523,18,25]; @symbol_type<0> = [Boolean,523,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 526; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,526,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 526; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [exclude,527,18,25]; @symbol_type<0> = [Boolean,527,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 530; @symbol_moduledef = [system_icon_dark__check,530,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 530; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [filename,531,18,26]; @symbol_type<0> = [String,531,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_dark__check.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [compress,532,18,26]; @symbol_type<0> = [String,532,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [dithering,533,18,27]; @symbol_type<0> = [String,533,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 534; @position = 18; @symbol_constdef = [automaticPalette,534,18,34]; @symbol_type<0> = [String,534,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 537; @symbol_moduledef = [confirmation_loc__hint_keep,537,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 537; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [x,538,18,19]; @symbol_type<0> = [Number,538,23,29]; ]
+            const x as Number = 322;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 539; @position = 18; @symbol_constdef = [y,539,18,19]; @symbol_type<0> = [Number,539,23,29]; ]
+            const y as Number = 258;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 542; @symbol_moduledef = [confirmation_loc__hint_delete,542,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 542; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [x,543,18,19]; @symbol_type<0> = [Number,543,23,29]; ]
+            const x as Number = 319;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 544; @position = 18; @symbol_constdef = [y,544,18,19]; @symbol_type<0> = [Number,544,23,29]; ]
+            const y as Number = 72;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 547; @symbol_moduledef = [system_icon_positive__hint_action_menu,547,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 547; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [exclude,548,18,25]; @symbol_type<0> = [Boolean,548,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 551; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,551,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 551; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [exclude,552,18,25]; @symbol_type<0> = [Boolean,552,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 555; @symbol_moduledef = [system_icon_light__hint_button_left_middle,555,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 555; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [exclude,556,18,25]; @symbol_type<0> = [Boolean,556,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 559; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,559,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 559; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [filename,560,18,26]; @symbol_type<0> = [String,560,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [dithering,561,18,27]; @symbol_type<0> = [String,561,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [packingFormat,562,18,31]; @symbol_type<0> = [String,562,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 565; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,565,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 565; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [filename,566,18,26]; @symbol_type<0> = [String,566,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 567; @position = 18; @symbol_constdef = [dithering,567,18,27]; @symbol_type<0> = [String,567,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 568; @position = 18; @symbol_constdef = [packingFormat,568,18,31]; @symbol_type<0> = [String,568,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 571; @symbol_moduledef = [system_icon_dark__revert,571,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 571; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [filename,572,18,26]; @symbol_type<0> = [String,572,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_dark__revert.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 573; @position = 18; @symbol_constdef = [compress,573,18,26]; @symbol_type<0> = [String,573,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 574; @position = 18; @symbol_constdef = [dithering,574,18,27]; @symbol_type<0> = [String,574,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 575; @position = 18; @symbol_constdef = [automaticPalette,575,18,34]; @symbol_type<0> = [String,575,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 578; @symbol_moduledef = [confirmation_icon_light__hint_delete,578,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 578; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [filename,579,18,26]; @symbol_type<0> = [String,579,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 580; @position = 18; @symbol_constdef = [dithering,580,18,27]; @symbol_type<0> = [String,580,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [packingFormat,581,18,31]; @symbol_type<0> = [String,581,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 584; @symbol_moduledef = [system_icon_dark__question,584,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 584; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 585; @position = 18; @symbol_constdef = [filename,585,18,26]; @symbol_type<0> = [String,585,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_dark__question.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 586; @position = 18; @symbol_constdef = [compress,586,18,26]; @symbol_type<0> = [String,586,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [dithering,587,18,27]; @symbol_type<0> = [String,587,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [automaticPalette,588,18,34]; @symbol_type<0> = [String,588,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 591; @symbol_moduledef = [system_icon_light__discard,591,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 591; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [filename,592,18,26]; @symbol_type<0> = [String,592,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__discard.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [compress,593,18,26]; @symbol_type<0> = [String,593,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 594; @position = 18; @symbol_constdef = [dithering,594,18,27]; @symbol_type<0> = [String,594,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 595; @position = 18; @symbol_constdef = [automaticPalette,595,18,34]; @symbol_type<0> = [String,595,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 598; @symbol_moduledef = [device_info,598,15,26]; ]
+        module device_info {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 598; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 600 18 ]
+                symbol [ Toybox %tmp.51 600 32 38 ];
+                %tmp.51 = getv ? :Toybox;
+                symbol [ System %tmp.52 600 39 45 ];
+                %tmp.52 = getv %tmp.51 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.53 600 46 64 ];
+                %tmp.53 = getv %tmp.52 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.53;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 599; @position = 18; @symbol_constdef = [screenWidth,599,18,29]; @symbol_type<0> = [Number,599,33,39]; ]
+            const screenWidth as Number = 390;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 600; @position = 18; @symbol_constdef = [screenShape,600,18,29]; ]
+            const screenShape;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 601; @position = 18; @symbol_constdef = [hasNightMode,601,18,30]; @symbol_type<0> = [Boolean,601,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [hasGpu,602,18,24]; @symbol_type<0> = [Boolean,602,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [screenHeight,603,18,30]; @symbol_type<0> = [Number,603,34,40]; ]
+            const screenHeight as Number = 390;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 604; @position = 18; @symbol_constdef = [hasTouchScreen,604,18,32]; @symbol_type<0> = [Boolean,604,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,605,18,44]; @symbol_type<0> = [Boolean,605,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 608; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,608,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 608; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 609; @position = 18; @symbol_constdef = [filename,609,18,26]; @symbol_type<0> = [String,609,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [dithering,610,18,27]; @symbol_type<0> = [String,610,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [packingFormat,611,18,31]; @symbol_type<0> = [String,611,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 614; @symbol_moduledef = [prompt_font__body_no_title,614,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 614; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 615 18 ]
+                symbol [ Graphics %tmp.54 615 34 42 ];
+                %tmp.54 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.55 615 43 62 ];
+                %tmp.55 = getv %tmp.54 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.56 615 63 71 ];
+                %tmp.56 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.57 615 72 92 ];
+                %tmp.57 = getv %tmp.56 :TEXT_JUSTIFY_VCENTER;
+                %tmp.58 = bitor %tmp.55 %tmp.57;
+                putv self :justification %tmp.58;
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 616 18 ]
+                symbol [ Graphics %tmp.59 616 25 33 ];
+                %tmp.59 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.60 616 34 43 ];
+                %tmp.60 = getv %tmp.59 :FONT_TINY;
+                putv self :font %tmp.60;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [justification,615,18,31]; ]
+            const justification;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [font,616,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 619; @symbol_moduledef = [prompt_size__title_icon,619,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 619; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 620; @position = 18; @symbol_constdef = [scaleX,620,18,24]; @symbol_type<0> = [Float,620,28,33]; ]
+            const scaleX as Float = 0.12;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [scaleRelativeTo,621,18,33]; @symbol_type<0> = [String,621,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 624; @symbol_moduledef = [system_icon_dark__warning,624,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 624; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 625; @position = 18; @symbol_constdef = [filename,625,18,26]; @symbol_type<0> = [String,625,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_dark__warning.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [compress,626,18,26]; @symbol_type<0> = [String,626,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [dithering,627,18,27]; @symbol_type<0> = [String,627,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [automaticPalette,628,18,34]; @symbol_type<0> = [String,628,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 631; @symbol_moduledef = [prompt_loc__title_icon,631,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 631; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [x,632,18,19]; @symbol_type<0> = [Number,632,23,29]; ]
+            const x as Number = 195;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [y,633,18,19]; @symbol_type<0> = [Number,633,23,29]; ]
+            const y as Number = 39;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [horizontalJustification,634,18,41]; @symbol_type<0> = [String,634,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 635; @position = 18; @symbol_constdef = [verticalJustification,635,18,39]; @symbol_type<0> = [String,635,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 638; @symbol_moduledef = [prompt_font_enhanced_readability__title,638,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 638; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [exclude,639,18,25]; @symbol_type<0> = [Boolean,639,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 642; @symbol_moduledef = [prompt_color_dark__body,642,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 642; ]
+            <init> {
+[ "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" 644 18 ]
+                symbol [ Graphics %tmp.61 644 31 39 ];
+                %tmp.61 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.62 644 40 57 ];
+                %tmp.62 = getv %tmp.61 :COLOR_TRANSPARENT;
+                putv self :background %tmp.62;
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 643; @position = 18; @symbol_constdef = [color,643,18,23]; @symbol_type<0> = [Number,643,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [background,644,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 647; @symbol_moduledef = [confirmation_icon__hint_delete,647,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 647; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [filename,648,18,26]; @symbol_type<0> = [String,648,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [dithering,649,18,27]; @symbol_type<0> = [String,649,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [packingFormat,650,18,31]; @symbol_type<0> = [String,650,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 653; @symbol_moduledef = [system_icon_light__hint_button_right_top,653,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 653; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 654; @position = 18; @symbol_constdef = [filename,654,18,26]; @symbol_type<0> = [String,654,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [dithering,655,18,27]; @symbol_type<0> = [String,655,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [packingFormat,656,18,31]; @symbol_type<0> = [String,656,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 659; @symbol_moduledef = [confirmation_size__body,659,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 659; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [width,660,18,23]; @symbol_type<0> = [Number,660,27,33]; ]
+            const width as Number = 231;
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [height,661,18,24]; @symbol_type<0> = [Number,661,28,34]; ]
+            const height as Number = 234;
+        }
+        [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 664; @symbol_moduledef = [system_icon_positive__check,664,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 664; ]
+            <init> {
+            }
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 665; @position = 18; @symbol_constdef = [filename,665,18,26]; @symbol_type<0> = [String,665,30,36]; ]
+            const filename as String = "/home/runner/.Garmin/ConnectIQ/Devices/venu441mm/system_icon_positive__check.svg";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 666; @position = 18; @symbol_constdef = [dithering,666,18,27]; @symbol_type<0> = [String,666,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 667; @position = 18; @symbol_constdef = [packingFormat,667,18,31]; @symbol_type<0> = [String,667,35,41]; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}

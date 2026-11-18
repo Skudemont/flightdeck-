@@ -1,0 +1,49 @@
+{
+  "settings" : [ {
+    "key" : "Theme",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "ThemeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ThemeQR",
+      "value" : 0
+    }, {
+      "display" : "ThemeEicas",
+      "value" : 1
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "ShowSeconds",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "ShowSecondsTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "ThemeTitle" : "Colour theme",
+      "ThemeEicas" : "EICAS",
+      "ShowSecondsTitle" : "Show seconds when awake",
+      "AppName" : "Flight Deck",
+      "ThemeQR" : "QR Burgundy"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+lindell/connect-iq-sdk-manager-cli info checking GitHub for tag 'v0.8.4'
+lindell/connect-iq-sdk-manager-cli info found version: 0.8.4 for v0.8.4/Linux/x86_64
+lindell/connect-iq-sdk-manager-cli info not allowed to install binary without higher privilege
+lindell/connect-iq-sdk-manager-cli info installed /home/runner/bin/connect-iq-sdk-manager
+Agreement: https://developer.garmin.com/downloads/connect-iq/sdks/agreement.html
+Current Hash: CC737BBBA104D7740D5BBCF27D0F6382
+Successfully logged in
+time="2026-11-18T18:25:12Z" level=info msg="Setting 9.3.0 to be the current SDK"
+time="2026-11-18T18:25:12Z" level=info msg="SDK does not exist, downloading it"
+SDK bin: /home/runner/.Garmin/ConnectIQ/Sdks/connectiq-sdk-lin-9.3.0-2026-10-20-95888f262/bin
+time="2026-11-18T18:25:16Z" level=info msg="Downloading 2 devices"
+time="2026-11-18T18:25:16Z" level=info msg="Downloading device zip" device=venu441mm
+time="2026-11-18T18:25:16Z" level=info msg="Downloading device zip" device=venu445mm
+time="2026-11-18T18:25:17Z" level=info msg="Installing 20 fonts"
+time="2026-11-18T18:25:17Z" level=info msg="Downloading font zip" font=Yantramanav-Regular
+time="2026-11-18T18:25:17Z" level=info msg="Downloading font zip" font=NotoSansHebrew-Regular
+time="2026-11-18T18:25:17Z" level=info msg="Downloading font zip" font=Bionic_Medium
+time="2026-11-18T18:25:17Z" level=info msg="Downloading font zip" font=Roboto-Medium-Outdoor
+time="2026-11-18T18:25:17Z" level=info msg="Downloading font zip" font=RobotoCondensed-Bold
+time="2026-11-18T18:25:17Z" level=info msg="Downloading font zip" font=Bionic_Bold
+time="2026-11-18T18:25:17Z" level=info msg="Downloading font zip" font=NotoSansHebrew-Bold
+time="2026-11-18T18:25:17Z" level=info msg="Downloading font zip" font=NotoSansSC-Medium-Outdoor
+time="2026-11-18T18:25:17Z" level=info msg="Downloading font zip" font=Kosugi-Regular-Outdoor
+time="2026-11-18T18:25:18Z" level=info msg="Downloading font zip" font=NotoNaskhArabic-Bold
+time="2026-11-18T18:25:18Z" level=info msg="Downloading font zip" font=Kosugi-Regular
+time="2026-11-18T18:25:18Z" level=info msg="Downloading font zip" font=RobotoCondensed-Regular
+time="2026-11-18T18:25:18Z" level=info msg="Downloading font zip" font=Pridi-Regular
+time="2026-11-18T18:25:18Z" level=info msg="Downloading font zip" font=NotoSansArmenian-Bold
+time="2026-11-18T18:25:18Z" level=info msg="Downloading font zip" font=NanumGothic-Bold
+time="2026-11-18T18:25:18Z" level=info msg="Downloading font zip" font=NotoSansArmenian-Regular
+time="2026-11-18T18:25:18Z" level=info msg="Downloading font zip" font=NotoNaskhArabic-Regular
+time="2026-11-18T18:25:18Z" level=info msg="Downloading font zip" font=NotoSansSC-Medium
+time="2026-11-18T18:25:19Z" level=info msg="Downloading font zip" font=Roboto-Regular
+time="2026-11-18T18:25:19Z" level=info msg="Downloading font zip" font=Roboto-Italic
+Developer key from secrets: part1 3164 chars, part2 0 chars, 2373 bytes, sha256 118538afd330

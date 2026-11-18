@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/home/runner/work/flightdeck-/flightdeck-/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/build/gen/006-B4644-00/source/Rez.mcgen" id="1" lineNum="7" parent="globals/Rez" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="2" lineNum="5" parent="globals/FlightDeckApp" pc="268435480" symbol="&lt;init&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="3" lineNum="73" parent="globals/FlightDeckView" pc="268435492" symbol="&lt;init&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="4" lineNum="13" parent="globals/FlightDeckApp" pc="268435504" symbol="onStart"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="5" lineNum="26" parent="globals/FlightDeckApp" pc="268435507" symbol="onSettingsChanged"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="5" lineNum="27" parent="globals/FlightDeckApp" pc="268435510" symbol="onSettingsChanged"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="5" lineNum="28" parent="globals/FlightDeckApp" pc="268435517" symbol="onSettingsChanged"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="5" lineNum="29" parent="globals/FlightDeckApp" pc="268435523" symbol="onSettingsChanged"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="5" lineNum="31" parent="globals/FlightDeckApp" pc="268435535" symbol="onSettingsChanged"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="6" lineNum="19" parent="globals/FlightDeckApp" pc="268435547" symbol="getInitialView"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="6" lineNum="20" parent="globals/FlightDeckApp" pc="268435550" symbol="getInitialView"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="6" lineNum="21" parent="globals/FlightDeckApp" pc="268435570" symbol="getInitialView"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="6" lineNum="22" parent="globals/FlightDeckApp" pc="268435579" symbol="getInitialView"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="7" lineNum="9" parent="globals/FlightDeckApp" pc="268435589" symbol="initialize"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="7" lineNum="10" parent="globals/FlightDeckApp" pc="268435591" symbol="initialize"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckApp.mc" id="8" lineNum="16" parent="globals/FlightDeckApp" pc="268435604" symbol="onStop"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="504" parent="globals/FlightDeckView" pc="268435607" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="506" parent="globals/FlightDeckView" pc="268435610" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="507" parent="globals/FlightDeckView" pc="268435614" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="508" parent="globals/FlightDeckView" pc="268435618" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="509" parent="globals/FlightDeckView" pc="268435622" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="512" parent="globals/FlightDeckView" pc="268435626" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="513" parent="globals/FlightDeckView" pc="268435637" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="515" parent="globals/FlightDeckView" pc="268435669" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="516" parent="globals/FlightDeckView" pc="268435677" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="517" parent="globals/FlightDeckView" pc="268435691" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="521" parent="globals/FlightDeckView" pc="268435723" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="522" parent="globals/FlightDeckView" pc="268435745" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="524" parent="globals/FlightDeckView" pc="268435777" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="525" parent="globals/FlightDeckView" pc="268435787" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="527" parent="globals/FlightDeckView" pc="268435819" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="528" parent="globals/FlightDeckView" pc="268435829" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="529" parent="globals/FlightDeckView" pc="268435837" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="530" parent="globals/FlightDeckView" pc="268435851" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="533" parent="globals/FlightDeckView" pc="268435886" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="534" parent="globals/FlightDeckView" pc="268435894" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="535" parent="globals/FlightDeckView" pc="268435908" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="539" parent="globals/FlightDeckView" pc="268435940" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="540" parent="globals/FlightDeckView" pc="268435951" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="542" parent="globals/FlightDeckView" pc="268435983" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="543" parent="globals/FlightDeckView" pc="268435991" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="544" parent="globals/FlightDeckView" pc="268436006" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="547" parent="globals/FlightDeckView" pc="268436056" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="548" parent="globals/FlightDeckView" pc="268436077" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="550" parent="globals/FlightDeckView" pc="268436109" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="551" parent="globals/FlightDeckView" pc="268436120" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="553" parent="globals/FlightDeckView" pc="268436152" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="554" parent="globals/FlightDeckView" pc="268436173" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="557" parent="globals/FlightDeckView" pc="268436205" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="558" parent="globals/FlightDeckView" pc="268436214" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="559" parent="globals/FlightDeckView" pc="268436221" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="561" parent="globals/FlightDeckView" pc="268436225" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="562" parent="globals/FlightDeckView" pc="268436233" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="565" parent="globals/FlightDeckView" pc="268436240" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="566" parent="globals/FlightDeckView" pc="268436243" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="567" parent="globals/FlightDeckView" pc="268436256" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="568" parent="globals/FlightDeckView" pc="268436272" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="569" parent="globals/FlightDeckView" pc="268436291" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="570" parent="globals/FlightDeckView" pc="268436307" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="571" parent="globals/FlightDeckView" pc="268436347" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="573" parent="globals/FlightDeckView" pc="268436351" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="574" parent="globals/FlightDeckView" pc="268436362" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="575" parent="globals/FlightDeckView" pc="268436394" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="576" parent="globals/FlightDeckView" pc="268436404" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="577" parent="globals/FlightDeckView" pc="268436421" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="578" parent="globals/FlightDeckView" pc="268436444" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="579" parent="globals/FlightDeckView" pc="268436452" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="580" parent="globals/FlightDeckView" pc="268436470" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="581" parent="globals/FlightDeckView" pc="268436486" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="582" parent="globals/FlightDeckView" pc="268436502" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="583" parent="globals/FlightDeckView" pc="268436514" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="9" lineNum="584" parent="globals/FlightDeckView" pc="268436547" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="10" lineNum="721" parent="globals/FlightDeckView" pc="268436573" symbol="&lt;globals/FlightDeckView/&lt;&gt;capAt&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="10" lineNum="722" parent="globals/FlightDeckView" pc="268436576" symbol="&lt;globals/FlightDeckView/&lt;&gt;capAt&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="10" lineNum="723" parent="globals/FlightDeckView" pc="268436592" symbol="&lt;globals/FlightDeckView/&lt;&gt;capAt&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="10" lineNum="724" parent="globals/FlightDeckView" pc="268436606" symbol="&lt;globals/FlightDeckView/&lt;&gt;capAt&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="966" parent="globals/FlightDeckView" pc="268436677" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="967" parent="globals/FlightDeckView" pc="268436680" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="968" parent="globals/FlightDeckView" pc="268436714" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="970" parent="globals/FlightDeckView" pc="268436719" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="974" parent="globals/FlightDeckView" pc="268436753" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="975" parent="globals/FlightDeckView" pc="268436762" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="976" parent="globals/FlightDeckView" pc="268436768" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="978" parent="globals/FlightDeckView" pc="268436773" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="979" parent="globals/FlightDeckView" pc="268436781" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="980" parent="globals/FlightDeckView" pc="268436789" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="981" parent="globals/FlightDeckView" pc="268436801" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="983" parent="globals/FlightDeckView" pc="268436806" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="984" parent="globals/FlightDeckView" pc="268436839" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="11" lineNum="986" parent="globals/FlightDeckView" pc="268436844" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="400" parent="globals/FlightDeckView" pc="268436852" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="401" parent="globals/FlightDeckView" pc="268436855" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="402" parent="globals/FlightDeckView" pc="268436869" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="405" parent="globals/FlightDeckView" pc="268436888" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="406" parent="globals/FlightDeckView" pc="268436892" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="407" parent="globals/FlightDeckView" pc="268436910" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="408" parent="globals/FlightDeckView" pc="268436956" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="410" parent="globals/FlightDeckView" pc="268437004" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="413" parent="globals/FlightDeckView" pc="268437011" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="414" parent="globals/FlightDeckView" pc="268437015" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="415" parent="globals/FlightDeckView" pc="268437031" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="416" parent="globals/FlightDeckView" pc="268437039" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="420" parent="globals/FlightDeckView" pc="268437046" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="421" parent="globals/FlightDeckView" pc="268437062" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="422" parent="globals/FlightDeckView" pc="268437097" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="423" parent="globals/FlightDeckView" pc="268437113" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="426" parent="globals/FlightDeckView" pc="268437145" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="427" parent="globals/FlightDeckView" pc="268437162" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="430" parent="globals/FlightDeckView" pc="268437188" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="433" parent="globals/FlightDeckView" pc="268437217" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="434" parent="globals/FlightDeckView" pc="268437223" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="435" parent="globals/FlightDeckView" pc="268437238" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="436" parent="globals/FlightDeckView" pc="268437251" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="12" lineNum="437" parent="globals/FlightDeckView" pc="268437268" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="13" lineNum="840" parent="globals/FlightDeckView" pc="268437353" symbol="&lt;globals/FlightDeckView/&lt;&gt;lerpColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="13" lineNum="841" parent="globals/FlightDeckView" pc="268437356" symbol="&lt;globals/FlightDeckView/&lt;&gt;lerpColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="13" lineNum="842" parent="globals/FlightDeckView" pc="268437367" symbol="&lt;globals/FlightDeckView/&lt;&gt;lerpColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="13" lineNum="843" parent="globals/FlightDeckView" pc="268437378" symbol="&lt;globals/FlightDeckView/&lt;&gt;lerpColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="13" lineNum="844" parent="globals/FlightDeckView" pc="268437386" symbol="&lt;globals/FlightDeckView/&lt;&gt;lerpColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="13" lineNum="845" parent="globals/FlightDeckView" pc="268437406" symbol="&lt;globals/FlightDeckView/&lt;&gt;lerpColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="13" lineNum="846" parent="globals/FlightDeckView" pc="268437426" symbol="&lt;globals/FlightDeckView/&lt;&gt;lerpColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="13" lineNum="847" parent="globals/FlightDeckView" pc="268437443" symbol="&lt;globals/FlightDeckView/&lt;&gt;lerpColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="14" lineNum="589" parent="globals/FlightDeckView" pc="268437473" symbol="&lt;globals/FlightDeckView/&lt;&gt;addMsg&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="14" lineNum="592" parent="globals/FlightDeckView" pc="268437475" symbol="&lt;globals/FlightDeckView/&lt;&gt;addMsg&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="14" lineNum="593" parent="globals/FlightDeckView" pc="268437487" symbol="&lt;globals/FlightDeckView/&lt;&gt;addMsg&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="14" lineNum="594" parent="globals/FlightDeckView" pc="268437499" symbol="&lt;globals/FlightDeckView/&lt;&gt;addMsg&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="14" lineNum="595" parent="globals/FlightDeckView" pc="268437511" symbol="&lt;globals/FlightDeckView/&lt;&gt;addMsg&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="15" lineNum="990" parent="globals/FlightDeckView" pc="268437524" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="15" lineNum="991" parent="globals/FlightDeckView" pc="268437527" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="15" lineNum="992" parent="globals/FlightDeckView" pc="268437561" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="15" lineNum="994" parent="globals/FlightDeckView" pc="268437566" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="15" lineNum="998" parent="globals/FlightDeckView" pc="268437600" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="15" lineNum="999" parent="globals/FlightDeckView" pc="268437609" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="15" lineNum="1000" parent="globals/FlightDeckView" pc="268437615" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="15" lineNum="1002" parent="globals/FlightDeckView" pc="268437620" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="15" lineNum="1003" parent="globals/FlightDeckView" pc="268437628" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="15" lineNum="1004" parent="globals/FlightDeckView" pc="268437634" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="15" lineNum="1006" parent="globals/FlightDeckView" pc="268437639" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="16" lineNum="892" parent="globals/FlightDeckView" pc="268437654" symbol="&lt;globals/FlightDeckView/&lt;&gt;homeString&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="16" lineNum="893" parent="globals/FlightDeckView" pc="268437657" symbol="&lt;globals/FlightDeckView/&lt;&gt;homeString&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="16" lineNum="894" parent="globals/FlightDeckView" pc="268437702" symbol="&lt;globals/FlightDeckView/&lt;&gt;homeString&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="16" lineNum="895" parent="globals/FlightDeckView" pc="268437719" symbol="&lt;globals/FlightDeckView/&lt;&gt;homeString&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="17" lineNum="1019" parent="globals/FlightDeckView" pc="268437765" symbol="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="17" lineNum="1020" parent="globals/FlightDeckView" pc="268437768" symbol="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="17" lineNum="1021" parent="globals/FlightDeckView" pc="268437798" symbol="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="17" lineNum="1025" parent="globals/FlightDeckView" pc="268437832" symbol="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="17" lineNum="1026" parent="globals/FlightDeckView" pc="268437838" symbol="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="17" lineNum="1027" parent="globals/FlightDeckView" pc="268437848" symbol="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="17" lineNum="1028" parent="globals/FlightDeckView" pc="268437854" symbol="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="17" lineNum="1029" parent="globals/FlightDeckView" pc="268437863" symbol="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="17" lineNum="1030" parent="globals/FlightDeckView" pc="268437869" symbol="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="17" lineNum="1035" parent="globals/FlightDeckView" pc="268437890" symbol="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="127" parent="globals/FlightDeckView" pc="268437892" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="128" parent="globals/FlightDeckView" pc="268437894" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="129" parent="globals/FlightDeckView" pc="268437908" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="130" parent="globals/FlightDeckView" pc="268437922" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="131" parent="globals/FlightDeckView" pc="268437937" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="132" parent="globals/FlightDeckView" pc="268437952" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="133" parent="globals/FlightDeckView" pc="268437970" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="134" parent="globals/FlightDeckView" pc="268437991" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="135" parent="globals/FlightDeckView" pc="268438002" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="137" parent="globals/FlightDeckView" pc="268438014" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="138" parent="globals/FlightDeckView" pc="268438050" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="139" parent="globals/FlightDeckView" pc="268438058" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="18" lineNum="140" parent="globals/FlightDeckView" pc="268438066" symbol="onLayout"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="19" lineNum="826" parent="globals/FlightDeckView" pc="268438075" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="19" lineNum="827" parent="globals/FlightDeckView" pc="268438078" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="19" lineNum="828" parent="globals/FlightDeckView" pc="268438087" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="19" lineNum="829" parent="globals/FlightDeckView" pc="268438102" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="19" lineNum="831" parent="globals/FlightDeckView" pc="268438110" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="19" lineNum="832" parent="globals/FlightDeckView" pc="268438121" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="19" lineNum="834" parent="globals/FlightDeckView" pc="268438133" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="19" lineNum="835" parent="globals/FlightDeckView" pc="268438143" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="19" lineNum="836" parent="globals/FlightDeckView" pc="268438152" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="19" lineNum="837" parent="globals/FlightDeckView" pc="268438159" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="20" lineNum="863" parent="globals/FlightDeckView" pc="268438183" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="20" lineNum="864" parent="globals/FlightDeckView" pc="268438186" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="20" lineNum="865" parent="globals/FlightDeckView" pc="268438194" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="20" lineNum="866" parent="globals/FlightDeckView" pc="268438215" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="20" lineNum="867" parent="globals/FlightDeckView" pc="268438220" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="20" lineNum="869" parent="globals/FlightDeckView" pc="268438247" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="20" lineNum="870" parent="globals/FlightDeckView" pc="268438254" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="20" lineNum="871" parent="globals/FlightDeckView" pc="268438261" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="20" lineNum="873" parent="globals/FlightDeckView" pc="268438268" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="21" lineNum="146" parent="globals/FlightDeckView" pc="268438285" symbol="loadSettings"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="21" lineNum="147" parent="globals/FlightDeckView" pc="268438288" symbol="loadSettings"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="21" lineNum="148" parent="globals/FlightDeckView" pc="268438291" symbol="loadSettings"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="21" lineNum="149" parent="globals/FlightDeckView" pc="268438306" symbol="loadSettings"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="21" lineNum="150" parent="globals/FlightDeckView" pc="268438321" symbol="loadSettings"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="21" lineNum="152" parent="globals/FlightDeckView" pc="268438328" symbol="loadSettings"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="21" lineNum="154" parent="globals/FlightDeckView" pc="268438339" symbol="loadSettings"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="21" lineNum="155" parent="globals/FlightDeckView" pc="268438354" symbol="loadSettings"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="21" lineNum="156" parent="globals/FlightDeckView" pc="268438382" symbol="loadSettings"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="22" lineNum="224" parent="globals/FlightDeckView" pc="268438391" symbol="onEnterSleep"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="22" lineNum="225" parent="globals/FlightDeckView" pc="268438393" symbol="onEnterSleep"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="22" lineNum="226" parent="globals/FlightDeckView" pc="268438401" symbol="onEnterSleep"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="748" parent="globals/FlightDeckView" pc="268438413" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="750" parent="globals/FlightDeckView" pc="268438416" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="751" parent="globals/FlightDeckView" pc="268438420" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="752" parent="globals/FlightDeckView" pc="268438433" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="753" parent="globals/FlightDeckView" pc="268438449" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="754" parent="globals/FlightDeckView" pc="268438469" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="756" parent="globals/FlightDeckView" pc="268438473" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="757" parent="globals/FlightDeckView" pc="268438488" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="758" parent="globals/FlightDeckView" pc="268438501" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="759" parent="globals/FlightDeckView" pc="268438511" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="760" parent="globals/FlightDeckView" pc="268438527" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="761" parent="globals/FlightDeckView" pc="268438537" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="762" parent="globals/FlightDeckView" pc="268438550" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="764" parent="globals/FlightDeckView" pc="268438557" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="765" parent="globals/FlightDeckView" pc="268438568" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="766" parent="globals/FlightDeckView" pc="268438581" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="767" parent="globals/FlightDeckView" pc="268438597" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="768" parent="globals/FlightDeckView" pc="268438604" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="770" parent="globals/FlightDeckView" pc="268438611" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="771" parent="globals/FlightDeckView" pc="268438622" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="773" parent="globals/FlightDeckView" pc="268438632" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="774" parent="globals/FlightDeckView" pc="268438653" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="775" parent="globals/FlightDeckView" pc="268438688" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="23" lineNum="777" parent="globals/FlightDeckView" pc="268438718" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="943" parent="globals/FlightDeckView" pc="268438727" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="944" parent="globals/FlightDeckView" pc="268438730" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="945" parent="globals/FlightDeckView" pc="268438764" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="947" parent="globals/FlightDeckView" pc="268438769" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="951" parent="globals/FlightDeckView" pc="268438826" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="952" parent="globals/FlightDeckView" pc="268438829" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="953" parent="globals/FlightDeckView" pc="268438832" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="954" parent="globals/FlightDeckView" pc="268438841" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="955" parent="globals/FlightDeckView" pc="268438847" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="956" parent="globals/FlightDeckView" pc="268438856" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="957" parent="globals/FlightDeckView" pc="268438862" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="958" parent="globals/FlightDeckView" pc="268438875" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="960" parent="globals/FlightDeckView" pc="268438885" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="24" lineNum="962" parent="globals/FlightDeckView" pc="268438897" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="651" parent="globals/FlightDeckView" pc="268438915" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="652" parent="globals/FlightDeckView" pc="268438918" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="653" parent="globals/FlightDeckView" pc="268438932" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="654" parent="globals/FlightDeckView" pc="268438945" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="656" parent="globals/FlightDeckView" pc="268438955" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="657" parent="globals/FlightDeckView" pc="268438970" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="658" parent="globals/FlightDeckView" pc="268438987" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="659" parent="globals/FlightDeckView" pc="268439034" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="660" parent="globals/FlightDeckView" pc="268439052" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="663" parent="globals/FlightDeckView" pc="268439070" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="664" parent="globals/FlightDeckView" pc="268439082" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="665" parent="globals/FlightDeckView" pc="268439098" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="25" lineNum="666" parent="globals/FlightDeckView" pc="268439157" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="26" lineNum="730" parent="globals/FlightDeckView" pc="268439170" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="26" lineNum="732" parent="globals/FlightDeckView" pc="268439173" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="26" lineNum="733" parent="globals/FlightDeckView" pc="268439192" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="26" lineNum="734" parent="globals/FlightDeckView" pc="268439211" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="26" lineNum="735" parent="globals/FlightDeckView" pc="268439219" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="26" lineNum="737" parent="globals/FlightDeckView" pc="268439226" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="26" lineNum="738" parent="globals/FlightDeckView" pc="268439234" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="26" lineNum="740" parent="globals/FlightDeckView" pc="268439241" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="26" lineNum="741" parent="globals/FlightDeckView" pc="268439257" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="26" lineNum="742" parent="globals/FlightDeckView" pc="268439283" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="26" lineNum="743" parent="globals/FlightDeckView" pc="268439297" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="27" lineNum="886" parent="globals/FlightDeckView" pc="268439318" symbol="&lt;globals/FlightDeckView/&lt;&gt;utcString&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="27" lineNum="887" parent="globals/FlightDeckView" pc="268439321" symbol="&lt;globals/FlightDeckView/&lt;&gt;utcString&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="27" lineNum="888" parent="globals/FlightDeckView" pc="268439346" symbol="&lt;globals/FlightDeckView/&lt;&gt;utcString&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="159" parent="globals/FlightDeckView" pc="268439398" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="160" parent="globals/FlightDeckView" pc="268439400" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="161" parent="globals/FlightDeckView" pc="268439408" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="162" parent="globals/FlightDeckView" pc="268439420" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="163" parent="globals/FlightDeckView" pc="268439432" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="164" parent="globals/FlightDeckView" pc="268439444" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="165" parent="globals/FlightDeckView" pc="268439456" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="166" parent="globals/FlightDeckView" pc="268439468" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="167" parent="globals/FlightDeckView" pc="268439480" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="168" parent="globals/FlightDeckView" pc="268439491" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="169" parent="globals/FlightDeckView" pc="268439503" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="170" parent="globals/FlightDeckView" pc="268439515" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="171" parent="globals/FlightDeckView" pc="268439526" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="172" parent="globals/FlightDeckView" pc="268439537" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="173" parent="globals/FlightDeckView" pc="268439548" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="174" parent="globals/FlightDeckView" pc="268439559" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="175" parent="globals/FlightDeckView" pc="268439570" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="176" parent="globals/FlightDeckView" pc="268439581" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="177" parent="globals/FlightDeckView" pc="268439592" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="178" parent="globals/FlightDeckView" pc="268439603" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="179" parent="globals/FlightDeckView" pc="268439614" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="180" parent="globals/FlightDeckView" pc="268439626" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="183" parent="globals/FlightDeckView" pc="268439640" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="184" parent="globals/FlightDeckView" pc="268439652" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="186" parent="globals/FlightDeckView" pc="268439664" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="187" parent="globals/FlightDeckView" pc="268439676" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="188" parent="globals/FlightDeckView" pc="268439688" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="189" parent="globals/FlightDeckView" pc="268439700" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="190" parent="globals/FlightDeckView" pc="268439712" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="191" parent="globals/FlightDeckView" pc="268439724" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="192" parent="globals/FlightDeckView" pc="268439736" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="193" parent="globals/FlightDeckView" pc="268439748" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="194" parent="globals/FlightDeckView" pc="268439760" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="195" parent="globals/FlightDeckView" pc="268439772" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="196" parent="globals/FlightDeckView" pc="268439784" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="197" parent="globals/FlightDeckView" pc="268439795" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="198" parent="globals/FlightDeckView" pc="268439806" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="199" parent="globals/FlightDeckView" pc="268439817" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="200" parent="globals/FlightDeckView" pc="268439828" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="201" parent="globals/FlightDeckView" pc="268439839" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="202" parent="globals/FlightDeckView" pc="268439850" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="28" lineNum="203" parent="globals/FlightDeckView" pc="268439862" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="901" parent="globals/FlightDeckView" pc="268439874" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="902" parent="globals/FlightDeckView" pc="268439877" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="903" parent="globals/FlightDeckView" pc="268439889" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="904" parent="globals/FlightDeckView" pc="268439895" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="905" parent="globals/FlightDeckView" pc="268439904" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="906" parent="globals/FlightDeckView" pc="268439910" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="909" parent="globals/FlightDeckView" pc="268439919" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="910" parent="globals/FlightDeckView" pc="268439934" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="911" parent="globals/FlightDeckView" pc="268439951" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="912" parent="globals/FlightDeckView" pc="268439960" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="913" parent="globals/FlightDeckView" pc="268439966" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="914" parent="globals/FlightDeckView" pc="268439975" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="915" parent="globals/FlightDeckView" pc="268439990" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="29" lineNum="919" parent="globals/FlightDeckView" pc="268440002" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="30" lineNum="491" parent="globals/FlightDeckView" pc="268440004" symbol="&lt;globals/FlightDeckView/&lt;&gt;measurePairs&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="30" lineNum="494" parent="globals/FlightDeckView" pc="268440007" symbol="&lt;globals/FlightDeckView/&lt;&gt;measurePairs&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="30" lineNum="495" parent="globals/FlightDeckView" pc="268440010" symbol="&lt;globals/FlightDeckView/&lt;&gt;measurePairs&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="30" lineNum="496" parent="globals/FlightDeckView" pc="268440026" symbol="&lt;globals/FlightDeckView/&lt;&gt;measurePairs&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="30" lineNum="499" parent="globals/FlightDeckView" pc="268440077" symbol="&lt;globals/FlightDeckView/&lt;&gt;measurePairs&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="670" parent="globals/FlightDeckView" pc="268440094" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="672" parent="globals/FlightDeckView" pc="268440097" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="673" parent="globals/FlightDeckView" pc="268440108" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="675" parent="globals/FlightDeckView" pc="268440118" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="676" parent="globals/FlightDeckView" pc="268440131" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="677" parent="globals/FlightDeckView" pc="268440139" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="679" parent="globals/FlightDeckView" pc="268440143" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="680" parent="globals/FlightDeckView" pc="268440157" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="681" parent="globals/FlightDeckView" pc="268440170" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="683" parent="globals/FlightDeckView" pc="268440180" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="684" parent="globals/FlightDeckView" pc="268440195" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="685" parent="globals/FlightDeckView" pc="268440208" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="686" parent="globals/FlightDeckView" pc="268440224" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="689" parent="globals/FlightDeckView" pc="268440274" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="690" parent="globals/FlightDeckView" pc="268440285" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="691" parent="globals/FlightDeckView" pc="268440292" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="692" parent="globals/FlightDeckView" pc="268440300" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="694" parent="globals/FlightDeckView" pc="268440307" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="695" parent="globals/FlightDeckView" pc="268440339" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="699" parent="globals/FlightDeckView" pc="268440408" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="700" parent="globals/FlightDeckView" pc="268440432" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="704" parent="globals/FlightDeckView" pc="268440465" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="705" parent="globals/FlightDeckView" pc="268440477" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="706" parent="globals/FlightDeckView" pc="268440488" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="707" parent="globals/FlightDeckView" pc="268440495" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="708" parent="globals/FlightDeckView" pc="268440503" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="710" parent="globals/FlightDeckView" pc="268440510" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="711" parent="globals/FlightDeckView" pc="268440532" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="712" parent="globals/FlightDeckView" pc="268440550" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="713" parent="globals/FlightDeckView" pc="268440568" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="714" parent="globals/FlightDeckView" pc="268440600" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="715" parent="globals/FlightDeckView" pc="268440643" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="716" parent="globals/FlightDeckView" pc="268440671" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="31" lineNum="718" parent="globals/FlightDeckView" pc="268440724" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="32" lineNum="382" parent="globals/FlightDeckView" pc="268440737" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDynamic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="32" lineNum="383" parent="globals/FlightDeckView" pc="268440740" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDynamic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="32" lineNum="384" parent="globals/FlightDeckView" pc="268440756" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDynamic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="32" lineNum="385" parent="globals/FlightDeckView" pc="268440788" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDynamic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="32" lineNum="386" parent="globals/FlightDeckView" pc="268440816" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDynamic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="32" lineNum="387" parent="globals/FlightDeckView" pc="268440835" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDynamic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="32" lineNum="391" parent="globals/FlightDeckView" pc="268440890" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDynamic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="32" lineNum="392" parent="globals/FlightDeckView" pc="268440898" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDynamic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="32" lineNum="393" parent="globals/FlightDeckView" pc="268440923" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDynamic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="923" parent="globals/FlightDeckView" pc="268440979" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="924" parent="globals/FlightDeckView" pc="268440982" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="925" parent="globals/FlightDeckView" pc="268440998" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="927" parent="globals/FlightDeckView" pc="268441003" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="928" parent="globals/FlightDeckView" pc="268441043" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="929" parent="globals/FlightDeckView" pc="268441046" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="930" parent="globals/FlightDeckView" pc="268441049" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="931" parent="globals/FlightDeckView" pc="268441058" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="932" parent="globals/FlightDeckView" pc="268441064" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="933" parent="globals/FlightDeckView" pc="268441073" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="934" parent="globals/FlightDeckView" pc="268441088" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="935" parent="globals/FlightDeckView" pc="268441095" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="937" parent="globals/FlightDeckView" pc="268441105" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="33" lineNum="939" parent="globals/FlightDeckView" pc="268441117" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="34" lineNum="207" parent="globals/FlightDeckView" pc="268441135" symbol="&lt;globals/FlightDeckView/&lt;&gt;getProp&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="34" lineNum="209" parent="globals/FlightDeckView" pc="268441138" symbol="&lt;globals/FlightDeckView/&lt;&gt;getProp&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="34" lineNum="210" parent="globals/FlightDeckView" pc="268441162" symbol="&lt;globals/FlightDeckView/&lt;&gt;getProp&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="34" lineNum="211" parent="globals/FlightDeckView" pc="268441166" symbol="&lt;globals/FlightDeckView/&lt;&gt;getProp&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="35" lineNum="218" parent="globals/FlightDeckView" pc="268441185" symbol="onExitSleep"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="35" lineNum="219" parent="globals/FlightDeckView" pc="268441187" symbol="onExitSleep"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="35" lineNum="220" parent="globals/FlightDeckView" pc="268441195" symbol="onExitSleep"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="35" lineNum="221" parent="globals/FlightDeckView" pc="268441203" symbol="onExitSleep"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="295" parent="globals/FlightDeckView" pc="268441215" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="296" parent="globals/FlightDeckView" pc="268441218" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="297" parent="globals/FlightDeckView" pc="268441229" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="298" parent="globals/FlightDeckView" pc="268441237" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="299" parent="globals/FlightDeckView" pc="268441249" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="300" parent="globals/FlightDeckView" pc="268441257" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="301" parent="globals/FlightDeckView" pc="268441268" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="303" parent="globals/FlightDeckView" pc="268441279" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="304" parent="globals/FlightDeckView" pc="268441291" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="305" parent="globals/FlightDeckView" pc="268441303" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="306" parent="globals/FlightDeckView" pc="268441315" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="309" parent="globals/FlightDeckView" pc="268441319" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="310" parent="globals/FlightDeckView" pc="268441333" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="311" parent="globals/FlightDeckView" pc="268441348" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="312" parent="globals/FlightDeckView" pc="268441363" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="315" parent="globals/FlightDeckView" pc="268441378" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="316" parent="globals/FlightDeckView" pc="268441386" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="317" parent="globals/FlightDeckView" pc="268441394" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="318" parent="globals/FlightDeckView" pc="268441397" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="319" parent="globals/FlightDeckView" pc="268441416" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="321" parent="globals/FlightDeckView" pc="268441432" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="322" parent="globals/FlightDeckView" pc="268441453" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="326" parent="globals/FlightDeckView" pc="268441511" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="327" parent="globals/FlightDeckView" pc="268441519" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="328" parent="globals/FlightDeckView" pc="268441526" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="329" parent="globals/FlightDeckView" pc="268441533" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="330" parent="globals/FlightDeckView" pc="268441544" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="331" parent="globals/FlightDeckView" pc="268441551" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="332" parent="globals/FlightDeckView" pc="268441561" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="333" parent="globals/FlightDeckView" pc="268441572" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="334" parent="globals/FlightDeckView" pc="268441579" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="336" parent="globals/FlightDeckView" pc="268441589" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="337" parent="globals/FlightDeckView" pc="268441614" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="338" parent="globals/FlightDeckView" pc="268441635" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="339" parent="globals/FlightDeckView" pc="268441646" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="340" parent="globals/FlightDeckView" pc="268441655" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="341" parent="globals/FlightDeckView" pc="268441668" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="344" parent="globals/FlightDeckView" pc="268441695" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="347" parent="globals/FlightDeckView" pc="268441729" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="348" parent="globals/FlightDeckView" pc="268441737" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="349" parent="globals/FlightDeckView" pc="268441740" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="350" parent="globals/FlightDeckView" pc="268441746" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="352" parent="globals/FlightDeckView" pc="268441759" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="353" parent="globals/FlightDeckView" pc="268441781" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="354" parent="globals/FlightDeckView" pc="268441809" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="355" parent="globals/FlightDeckView" pc="268441828" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="360" parent="globals/FlightDeckView" pc="268441883" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="361" parent="globals/FlightDeckView" pc="268441908" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="364" parent="globals/FlightDeckView" pc="268441966" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="367" parent="globals/FlightDeckView" pc="268442004" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="370" parent="globals/FlightDeckView" pc="268442023" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="373" parent="globals/FlightDeckView" pc="268442036" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="374" parent="globals/FlightDeckView" pc="268442061" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="375" parent="globals/FlightDeckView" pc="268442078" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="36" lineNum="376" parent="globals/FlightDeckView" pc="268442109" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="445" parent="globals/FlightDeckView" pc="268442127" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="446" parent="globals/FlightDeckView" pc="268442130" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="447" parent="globals/FlightDeckView" pc="268442142" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="448" parent="globals/FlightDeckView" pc="268442145" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="449" parent="globals/FlightDeckView" pc="268442149" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="450" parent="globals/FlightDeckView" pc="268442165" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="451" parent="globals/FlightDeckView" pc="268442181" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="453" parent="globals/FlightDeckView" pc="268442200" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="454" parent="globals/FlightDeckView" pc="268442207" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="455" parent="globals/FlightDeckView" pc="268442222" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="456" parent="globals/FlightDeckView" pc="268442227" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="457" parent="globals/FlightDeckView" pc="268442242" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="462" parent="globals/FlightDeckView" pc="268442261" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="463" parent="globals/FlightDeckView" pc="268442268" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="464" parent="globals/FlightDeckView" pc="268442271" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="465" parent="globals/FlightDeckView" pc="268442287" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="466" parent="globals/FlightDeckView" pc="268442294" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="467" parent="globals/FlightDeckView" pc="268442318" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="468" parent="globals/FlightDeckView" pc="268442335" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="472" parent="globals/FlightDeckView" pc="268442351" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="473" parent="globals/FlightDeckView" pc="268442364" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="474" parent="globals/FlightDeckView" pc="268442368" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="475" parent="globals/FlightDeckView" pc="268442387" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="476" parent="globals/FlightDeckView" pc="268442403" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="477" parent="globals/FlightDeckView" pc="268442419" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="478" parent="globals/FlightDeckView" pc="268442437" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="479" parent="globals/FlightDeckView" pc="268442455" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="480" parent="globals/FlightDeckView" pc="268442472" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="482" parent="globals/FlightDeckView" pc="268442495" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="483" parent="globals/FlightDeckView" pc="268442511" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="484" parent="globals/FlightDeckView" pc="268442527" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="486" parent="globals/FlightDeckView" pc="268442556" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="37" lineNum="487" parent="globals/FlightDeckView" pc="268442585" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="781" parent="globals/FlightDeckView" pc="268442612" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="782" parent="globals/FlightDeckView" pc="268442615" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="783" parent="globals/FlightDeckView" pc="268442634" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="784" parent="globals/FlightDeckView" pc="268442650" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="785" parent="globals/FlightDeckView" pc="268442654" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="786" parent="globals/FlightDeckView" pc="268442665" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="787" parent="globals/FlightDeckView" pc="268442678" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="788" parent="globals/FlightDeckView" pc="268442686" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="790" parent="globals/FlightDeckView" pc="268442692" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="791" parent="globals/FlightDeckView" pc="268442699" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="794" parent="globals/FlightDeckView" pc="268442775" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="795" parent="globals/FlightDeckView" pc="268442789" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="799" parent="globals/FlightDeckView" pc="268442821" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="800" parent="globals/FlightDeckView" pc="268442846" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="801" parent="globals/FlightDeckView" pc="268442865" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="802" parent="globals/FlightDeckView" pc="268442884" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="803" parent="globals/FlightDeckView" pc="268442909" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="804" parent="globals/FlightDeckView" pc="268442913" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="805" parent="globals/FlightDeckView" pc="268442924" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="806" parent="globals/FlightDeckView" pc="268442936" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="38" lineNum="807" parent="globals/FlightDeckView" pc="268442965" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="265" parent="globals/FlightDeckView" pc="268443039" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="266" parent="globals/FlightDeckView" pc="268443042" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="267" parent="globals/FlightDeckView" pc="268443060" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="269" parent="globals/FlightDeckView" pc="268443075" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="270" parent="globals/FlightDeckView" pc="268443127" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="271" parent="globals/FlightDeckView" pc="268443131" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="274" parent="globals/FlightDeckView" pc="268443154" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="275" parent="globals/FlightDeckView" pc="268443163" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="277" parent="globals/FlightDeckView" pc="268443174" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="279" parent="globals/FlightDeckView" pc="268443185" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="280" parent="globals/FlightDeckView" pc="268443192" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="281" parent="globals/FlightDeckView" pc="268443198" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="283" parent="globals/FlightDeckView" pc="268443203" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="284" parent="globals/FlightDeckView" pc="268443212" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="286" parent="globals/FlightDeckView" pc="268443218" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="287" parent="globals/FlightDeckView" pc="268443226" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="39" lineNum="289" parent="globals/FlightDeckView" pc="268443231" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="40" lineNum="812" parent="globals/FlightDeckView" pc="268443240" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="40" lineNum="813" parent="globals/FlightDeckView" pc="268443243" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="40" lineNum="814" parent="globals/FlightDeckView" pc="268443247" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="40" lineNum="815" parent="globals/FlightDeckView" pc="268443258" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="40" lineNum="816" parent="globals/FlightDeckView" pc="268443270" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="40" lineNum="817" parent="globals/FlightDeckView" pc="268443292" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="40" lineNum="818" parent="globals/FlightDeckView" pc="268443300" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="40" lineNum="820" parent="globals/FlightDeckView" pc="268443306" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="40" lineNum="821" parent="globals/FlightDeckView" pc="268443333" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="40" lineNum="822" parent="globals/FlightDeckView" pc="268443361" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="41" lineNum="877" parent="globals/FlightDeckView" pc="268443394" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatEndurance&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="41" lineNum="878" parent="globals/FlightDeckView" pc="268443397" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatEndurance&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="41" lineNum="879" parent="globals/FlightDeckView" pc="268443410" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatEndurance&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="41" lineNum="880" parent="globals/FlightDeckView" pc="268443418" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatEndurance&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="41" lineNum="882" parent="globals/FlightDeckView" pc="268443457" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatEndurance&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="42" lineNum="1009" parent="globals/FlightDeckView" pc="268443471" symbol="&lt;globals/FlightDeckView/&lt;&gt;activityRunning&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="42" lineNum="1010" parent="globals/FlightDeckView" pc="268443474" symbol="&lt;globals/FlightDeckView/&lt;&gt;activityRunning&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="42" lineNum="1011" parent="globals/FlightDeckView" pc="268443486" symbol="&lt;globals/FlightDeckView/&lt;&gt;activityRunning&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="42" lineNum="1012" parent="globals/FlightDeckView" pc="268443503" symbol="&lt;globals/FlightDeckView/&lt;&gt;activityRunning&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="42" lineNum="1013" parent="globals/FlightDeckView" pc="268443512" symbol="&lt;globals/FlightDeckView/&lt;&gt;activityRunning&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="42" lineNum="1015" parent="globals/FlightDeckView" pc="268443529" symbol="&lt;globals/FlightDeckView/&lt;&gt;activityRunning&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="43" lineNum="856" parent="globals/FlightDeckView" pc="268443531" symbol="&lt;globals/FlightDeckView/&lt;&gt;normDeg&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="43" lineNum="857" parent="globals/FlightDeckView" pc="268443533" symbol="&lt;globals/FlightDeckView/&lt;&gt;normDeg&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="44" lineNum="118" parent="globals/FlightDeckView" pc="268443548" symbol="initialize"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="44" lineNum="119" parent="globals/FlightDeckView" pc="268443551" symbol="initialize"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="44" lineNum="120" parent="globals/FlightDeckView" pc="268443563" symbol="initialize"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="44" lineNum="121" parent="globals/FlightDeckView" pc="268443575" symbol="initialize"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="44" lineNum="122" parent="globals/FlightDeckView" pc="268443586" symbol="initialize"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="44" lineNum="124" parent="globals/FlightDeckView" pc="268443603" symbol="initialize"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="45" lineNum="850" parent="globals/FlightDeckView" pc="268443611" symbol="&lt;globals/FlightDeckView/&lt;&gt;antiAlias&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="45" lineNum="851" parent="globals/FlightDeckView" pc="268443613" symbol="&lt;globals/FlightDeckView/&lt;&gt;antiAlias&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="45" lineNum="852" parent="globals/FlightDeckView" pc="268443624" symbol="&lt;globals/FlightDeckView/&lt;&gt;antiAlias&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="232" parent="globals/FlightDeckView" pc="268443640" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="233" parent="globals/FlightDeckView" pc="268443643" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="234" parent="globals/FlightDeckView" pc="268443653" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="236" parent="globals/FlightDeckView" pc="268443667" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="237" parent="globals/FlightDeckView" pc="268443679" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="239" parent="globals/FlightDeckView" pc="268443687" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="240" parent="globals/FlightDeckView" pc="268443704" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="241" parent="globals/FlightDeckView" pc="268443715" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="242" parent="globals/FlightDeckView" pc="268443727" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="243" parent="globals/FlightDeckView" pc="268443735" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="244" parent="globals/FlightDeckView" pc="268443748" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="248" parent="globals/FlightDeckView" pc="268443752" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="249" parent="globals/FlightDeckView" pc="268443760" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="250" parent="globals/FlightDeckView" pc="268443767" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="251" parent="globals/FlightDeckView" pc="268443779" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="252" parent="globals/FlightDeckView" pc="268443802" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="253" parent="globals/FlightDeckView" pc="268443815" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="254" parent="globals/FlightDeckView" pc="268443828" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="256" parent="globals/FlightDeckView" pc="268443839" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="258" parent="globals/FlightDeckView" pc="268443856" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="261" parent="globals/FlightDeckView" pc="268443869" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="46" lineNum="262" parent="globals/FlightDeckView" pc="268443880" symbol="onUpdate"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="603" parent="globals/FlightDeckView" pc="268443894" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="604" parent="globals/FlightDeckView" pc="268443897" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="605" parent="globals/FlightDeckView" pc="268443909" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="606" parent="globals/FlightDeckView" pc="268443927" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="607" parent="globals/FlightDeckView" pc="268443935" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="608" parent="globals/FlightDeckView" pc="268443948" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="611" parent="globals/FlightDeckView" pc="268443980" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="612" parent="globals/FlightDeckView" pc="268443996" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="613" parent="globals/FlightDeckView" pc="268444004" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="615" parent="globals/FlightDeckView" pc="268444011" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="616" parent="globals/FlightDeckView" pc="268444028" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="618" parent="globals/FlightDeckView" pc="268444048" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="619" parent="globals/FlightDeckView" pc="268444052" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="620" parent="globals/FlightDeckView" pc="268444065" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="621" parent="globals/FlightDeckView" pc="268444087" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="622" parent="globals/FlightDeckView" pc="268444091" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="623" parent="globals/FlightDeckView" pc="268444108" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="625" parent="globals/FlightDeckView" pc="268444134" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="626" parent="globals/FlightDeckView" pc="268444138" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="627" parent="globals/FlightDeckView" pc="268444151" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="628" parent="globals/FlightDeckView" pc="268444167" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="629" parent="globals/FlightDeckView" pc="268444184" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="632" parent="globals/FlightDeckView" pc="268444210" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="633" parent="globals/FlightDeckView" pc="268444220" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="634" parent="globals/FlightDeckView" pc="268444227" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="636" parent="globals/FlightDeckView" pc="268444233" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="637" parent="globals/FlightDeckView" pc="268444243" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="638" parent="globals/FlightDeckView" pc="268444254" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="640" parent="globals/FlightDeckView" pc="268444267" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="641" parent="globals/FlightDeckView" pc="268444278" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="642" parent="globals/FlightDeckView" pc="268444301" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="643" parent="globals/FlightDeckView" pc="268444313" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry filename="/home/runner/work/flightdeck-/flightdeck-/source/FlightDeckView.mc" id="47" lineNum="644" parent="globals/FlightDeckView" pc="268444325" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="75" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;"/>
+        <entry field="true" id="7" symbol="&lt;globals/FlightDeckApp/&lt;&gt;_view&gt;"/>
+        <entry id="14" symbol="&lt;globals/FlightDeckView/&lt;&gt;_bbGrad&gt;"/>
+        <entry field="true" id="8" symbol="&lt;globals/FlightDeckView/&lt;&gt;_accent&gt;"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="15" symbol="&lt;globals/FlightDeckView/&lt;&gt;_burnIn&gt;"/>
+        <entry id="23" symbol="&lt;globals/FlightDeckView/&lt;&gt;_days&gt;"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry id="12" symbol="&lt;globals/FlightDeckView/&lt;&gt;_batGrad&gt;"/>
+        <entry id="69" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;homeString&gt;"/>
+        <entry id="58" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;"/>
+        <entry id="8389702" method="true" symbol="getHeartRateHistory"/>
+        <entry field="true" id="24" symbol="&lt;globals/FlightDeckView/&lt;&gt;_dome&gt;"/>
+        <entry field="true" id="34" symbol="&lt;globals/FlightDeckView/&lt;&gt;_sheen&gt;"/>
+        <entry id="73" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;normDeg&gt;"/>
+        <entry id="5" object="true" symbol="FlightDeckApp"/>
+        <entry id="47" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;"/>
+        <entry id="48" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;"/>
+        <entry field="true" id="42" symbol="&lt;globals/FlightDeckView/&lt;&gt;_vignette&gt;"/>
+        <entry field="true" id="17" symbol="&lt;globals/FlightDeckView/&lt;&gt;_cacheDirty&gt;"/>
+        <entry field="true" id="8389795" symbol="doNotDisturb"/>
+        <entry id="74" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;"/>
+        <entry id="59" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;"/>
+        <entry id="39" symbol="&lt;globals/FlightDeckView/&lt;&gt;_timeGrad&gt;"/>
+        <entry field="true" id="8390461" symbol="charging"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry id="33" symbol="&lt;globals/FlightDeckView/&lt;&gt;_secGrad&gt;"/>
+        <entry id="8391839" method="true" symbol="getBodyBatteryHistory"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="46" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;antiAlias&gt;"/>
+        <entry field="true" id="8389814" symbol="timerState"/>
+        <entry field="true" id="79" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry id="44" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;activityRunning&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="37" symbol="&lt;globals/FlightDeckView/&lt;&gt;_stepsColor&gt;"/>
+        <entry id="62" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatEndurance&gt;"/>
+        <entry id="50" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;capAt&gt;"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="38" symbol="&lt;globals/FlightDeckView/&lt;&gt;_stepsGrad&gt;"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="55" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;"/>
+        <entry field="true" id="80" symbol="ShowSecondsTitle"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="63" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;formatTime&gt;"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="77" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;utcString&gt;"/>
+        <entry id="56" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="68" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry field="true" id="30" symbol="&lt;globals/FlightDeckView/&lt;&gt;_pen&gt;"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="76" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;"/>
+        <entry id="64" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;"/>
+        <entry id="60" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry id="61" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;"/>
+        <entry field="true" id="9" symbol="&lt;globals/FlightDeckView/&lt;&gt;_aodColor&gt;"/>
+        <entry id="8391512" method="true" symbol="getOxygenSaturationHistory"/>
+        <entry id="57" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;"/>
+        <entry id="29" symbol="&lt;globals/FlightDeckView/&lt;&gt;_months&gt;"/>
+        <entry id="54" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;"/>
+        <entry id="51" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;"/>
+        <entry id="8389802" method="true" symbol="getElevationHistory"/>
+        <entry field="true" id="19" symbol="&lt;globals/FlightDeckView/&lt;&gt;_cacheMinute&gt;"/>
+        <entry id="49" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;"/>
+        <entry field="true" id="8391854" symbol="batteryInDays"/>
+        <entry field="true" id="35" symbol="&lt;globals/FlightDeckView/&lt;&gt;_showSeconds&gt;"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389809" symbol="order"/>
+        <entry field="true" id="43" symbol="&lt;globals/FlightDeckView/&lt;&gt;_w&gt;"/>
+        <entry field="true" id="13" symbol="&lt;globals/FlightDeckView/&lt;&gt;_bbColor&gt;"/>
+        <entry field="true" id="32" symbol="&lt;globals/FlightDeckView/&lt;&gt;_s&gt;"/>
+        <entry field="true" id="31" symbol="&lt;globals/FlightDeckView/&lt;&gt;_r&gt;"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="27" symbol="&lt;globals/FlightDeckView/&lt;&gt;_h&gt;"/>
+        <entry field="true" id="81" symbol="ThemeEicas"/>
+        <entry field="true" id="40" symbol="&lt;globals/FlightDeckView/&lt;&gt;_trackColor&gt;"/>
+        <entry id="8391770" method="true" symbol="createBufferedBitmap"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="70" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;lerpColor&gt;"/>
+        <entry field="true" id="41" symbol="&lt;globals/FlightDeckView/&lt;&gt;_valueColor&gt;"/>
+        <entry field="true" id="11" symbol="&lt;globals/FlightDeckView/&lt;&gt;_awake&gt;"/>
+        <entry field="true" id="78" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8391847" method="true" symbol="getStressHistory"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="45" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;addMsg&gt;"/>
+        <entry field="true" id="8391194" symbol="requiresBurnInProtection"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="52" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="10" symbol="&lt;globals/FlightDeckView/&lt;&gt;_aodDimColor&gt;"/>
+        <entry id="53" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;drawDynamic&gt;"/>
+        <entry field="true" id="25" symbol="&lt;globals/FlightDeckView/&lt;&gt;_domeEdge&gt;"/>
+        <entry id="8389808" symbol="period"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="26" symbol="&lt;globals/FlightDeckView/&lt;&gt;_domeTop&gt;"/>
+        <entry id="65" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;"/>
+        <entry id="8391701" method="true" symbol="setAntiAlias"/>
+        <entry id="66" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;getProp&gt;"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="67" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;"/>
+        <entry id="8389781" module="true" symbol="SensorHistory"/>
+        <entry id="72" method="true" symbol="&lt;globals/FlightDeckView/&lt;&gt;measurePairs&gt;"/>
+        <entry field="true" id="83" symbol="ThemeTitle"/>
+        <entry field="true" id="28" symbol="&lt;globals/FlightDeckView/&lt;&gt;_labelColor&gt;"/>
+        <entry id="71" method="true" symbol="loadSettings"/>
+        <entry field="true" id="22" symbol="&lt;globals/FlightDeckView/&lt;&gt;_dateColor&gt;"/>
+        <entry field="true" id="21" symbol="&lt;globals/FlightDeckView/&lt;&gt;_cy&gt;"/>
+        <entry field="true" id="82" symbol="ThemeQR"/>
+        <entry field="true" id="20" symbol="&lt;globals/FlightDeckView/&lt;&gt;_cx&gt;"/>
+        <entry id="6" object="true" symbol="FlightDeckView"/>
+        <entry id="36" symbol="&lt;globals/FlightDeckView/&lt;&gt;_smallGrad&gt;"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="16" symbol="&lt;globals/FlightDeckView/&lt;&gt;_cache&gt;"/>
+        <entry field="true" id="18" symbol="&lt;globals/FlightDeckView/&lt;&gt;_cacheFailed&gt;"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435545" name="view" stackId="1" startPc="268435510"/>
+        <entry endPc="268435588" name="view" stackId="1" startPc="268435550"/>
+        <entry arg="true" endPc="268436572" name="dc" stackId="1" startPc="268435607"/>
+        <entry arg="true" endPc="268436572" name="ds" stackId="2" startPc="268435607"/>
+        <entry arg="true" endPc="268436572" name="stats" stackId="3" startPc="268435607"/>
+        <entry arg="true" endPc="268436572" name="battery" stackId="4" startPc="268435607"/>
+        <entry endPc="268436571" name="texts" stackId="5" startPc="268435610"/>
+        <entry endPc="268436571" name="colors" stackId="6" startPc="268435610"/>
+        <entry endPc="268436571" name="boxed" stackId="7" startPc="268435610"/>
+        <entry endPc="268436571" name="indent" stackId="8" startPc="268435610"/>
+        <entry endPc="268436571" name="spo2" stackId="9" startPc="268435610"/>
+        <entry endPc="268435882" name="hrAvg" stackId="10" startPc="268435829"/>
+        <entry endPc="268436571" name="stress" stackId="11" startPc="268435610"/>
+        <entry endPc="268436571" name="ft" stackId="12" startPc="268435610"/>
+        <entry endPc="268436571" name="count" stackId="13" startPc="268435610"/>
+        <entry endPc="268436571" name="font" stackId="14" startPc="268435610"/>
+        <entry endPc="268436571" name="fh" stackId="15" startPc="268435610"/>
+        <entry endPc="268436571" name="lineH" stackId="16" startPc="268435610"/>
+        <entry endPc="268436571" name="panelMid" stackId="17" startPc="268435610"/>
+        <entry endPc="268436571" name="y0" stackId="18" startPc="268435610"/>
+        <entry endPc="268436571" name="x0" stackId="19" startPc="268435610"/>
+        <entry endPc="268436571" name="leftV" stackId="20" startPc="268435610"/>
+        <entry endPc="268436571" name="i" stackId="21" startPc="268436362"/>
+        <entry endPc="268436561" name="x" stackId="22" startPc="268436362"/>
+        <entry endPc="268436561" name="y" stackId="23" startPc="268436362"/>
+        <entry endPc="268436558" name="tw" stackId="24" startPc="268436452"/>
+        <entry endPc="268436558" name="bh" stackId="25" startPc="268436452"/>
+        <entry endPc="268436558" name="p" stackId="26" startPc="268436452"/>
+        <entry arg="true" endPc="268436676" name="dc" stackId="1" startPc="268436573"/>
+        <entry arg="true" endPc="268436676" name="deg" stackId="2" startPc="268436573"/>
+        <entry arg="true" endPc="268436676" name="color" stackId="3" startPc="268436573"/>
+        <entry endPc="268436675" name="a" stackId="4" startPc="268436576"/>
+        <entry endPc="268436851" name="iter" stackId="1" startPc="268436680"/>
+        <entry endPc="268436851" name="sample" stackId="2" startPc="268436680"/>
+        <entry endPc="268436851" name="d" stackId="3" startPc="268436680"/>
+        <entry endPc="268436851" name="when" stackId="4" startPc="268436680"/>
+        <entry arg="true" endPc="268437352" name="dc" stackId="1" startPc="268436852"/>
+        <entry arg="true" endPc="268437352" name="clock" stackId="2" startPc="268436852"/>
+        <entry arg="true" endPc="268437352" name="is24" stackId="3" startPc="268436852"/>
+        <entry endPc="268437351" name="timeStr" stackId="4" startPc="268436855"/>
+        <entry endPc="268437351" name="timeY" stackId="5" startPc="268436855"/>
+        <entry endPc="268437351" name="font" stackId="6" startPc="268436855"/>
+        <entry endPc="268437351" name="sideW" stackId="7" startPc="268436855"/>
+        <entry endPc="268437351" name="limit" stackId="8" startPc="268436855"/>
+        <entry endPc="268437351" name="just" stackId="9" startPc="268436855"/>
+        <entry endPc="268437351" name="o" stackId="10" startPc="268436855"/>
+        <entry endPc="268437348" name="tw" stackId="11" startPc="268437223"/>
+        <entry endPc="268437348" name="th" stackId="12" startPc="268437223"/>
+        <entry arg="true" endPc="268437472" name="a" stackId="1" startPc="268437353"/>
+        <entry arg="true" endPc="268437472" name="b" stackId="2" startPc="268437353"/>
+        <entry arg="true" endPc="268437472" name="f" stackId="3" startPc="268437353"/>
+        <entry endPc="268437472" name="ar" stackId="4" startPc="268437356"/>
+        <entry endPc="268437472" name="ag" stackId="5" startPc="268437356"/>
+        <entry endPc="268437472" name="ab" stackId="6" startPc="268437356"/>
+        <entry endPc="268437472" name="r" stackId="7" startPc="268437356"/>
+        <entry endPc="268437472" name="g" stackId="8" startPc="268437356"/>
+        <entry endPc="268437472" name="bl" stackId="9" startPc="268437356"/>
+        <entry arg="true" endPc="268437523" name="texts" stackId="1" startPc="268437473"/>
+        <entry arg="true" endPc="268437523" name="colors" stackId="2" startPc="268437473"/>
+        <entry arg="true" endPc="268437523" name="boxed" stackId="3" startPc="268437473"/>
+        <entry arg="true" endPc="268437523" name="indent" stackId="4" startPc="268437473"/>
+        <entry arg="true" endPc="268437523" name="text" stackId="5" startPc="268437473"/>
+        <entry arg="true" endPc="268437523" name="color" stackId="6" startPc="268437473"/>
+        <entry arg="true" endPc="268437523" name="isBoxed" stackId="7" startPc="268437473"/>
+        <entry arg="true" endPc="268437523" name="isIndented" stackId="8" startPc="268437473"/>
+        <entry endPc="268437653" name="iter" stackId="1" startPc="268437527"/>
+        <entry endPc="268437653" name="sample" stackId="2" startPc="268437527"/>
+        <entry endPc="268437653" name="d" stackId="3" startPc="268437527"/>
+        <entry endPc="268437764" name="t" stackId="1" startPc="268437657"/>
+        <entry endPc="268437764" name="h" stackId="2" startPc="268437657"/>
+        <entry endPc="268437886" name="iter" stackId="1" startPc="268437798"/>
+        <entry endPc="268437883" name="sample" stackId="2" startPc="268437838"/>
+        <entry endPc="268437880" name="d" stackId="3" startPc="268437854"/>
+        <entry arg="true" endPc="268438074" name="dc" stackId="1" startPc="268437892"/>
+        <entry arg="true" endPc="268438182" name="stops" stackId="1" startPc="268438075"/>
+        <entry arg="true" endPc="268438182" name="t" stackId="2" startPc="268438075"/>
+        <entry endPc="268438182" name="n" stackId="3" startPc="268438078"/>
+        <entry endPc="268438182" name="pos" stackId="4" startPc="268438078"/>
+        <entry endPc="268438182" name="i" stackId="5" startPc="268438078"/>
+        <entry endPc="268438182" name="f" stackId="6" startPc="268438078"/>
+        <entry arg="true" endPc="268438284" name="clock" stackId="1" startPc="268438183"/>
+        <entry arg="true" endPc="268438284" name="is24" stackId="2" startPc="268438183"/>
+        <entry endPc="268438284" name="hour" stackId="3" startPc="268438186"/>
+        <entry endPc="268438284" name="min" stackId="4" startPc="268438186"/>
+        <entry endPc="268438389" name="theme" stackId="1" startPc="268438288"/>
+        <entry endPc="268438389" name="v" stackId="2" startPc="268438288"/>
+        <entry endPc="268438389" name="sec" stackId="3" startPc="268438288"/>
+        <entry arg="true" endPc="268438726" name="dc" stackId="1" startPc="268438413"/>
+        <entry arg="true" endPc="268438726" name="x" stackId="2" startPc="268438413"/>
+        <entry arg="true" endPc="268438726" name="y" stackId="3" startPc="268438413"/>
+        <entry arg="true" endPc="268438726" name="font" stackId="4" startPc="268438413"/>
+        <entry arg="true" endPc="268438726" name="str" stackId="5" startPc="268438413"/>
+        <entry arg="true" endPc="268438726" name="stops" stackId="6" startPc="268438413"/>
+        <entry arg="true" endPc="268438726" name="bands" stackId="7" startPc="268438413"/>
+        <entry endPc="268438725" name="just" stackId="8" startPc="268438416"/>
+        <entry endPc="268438725" name="tw" stackId="9" startPc="268438416"/>
+        <entry endPc="268438725" name="fh" stackId="10" startPc="268438416"/>
+        <entry endPc="268438725" name="boxTop" stackId="11" startPc="268438416"/>
+        <entry endPc="268438725" name="gh" stackId="12" startPc="268438416"/>
+        <entry endPc="268438725" name="gTop" stackId="13" startPc="268438416"/>
+        <entry endPc="268438725" name="left" stackId="14" startPc="268438416"/>
+        <entry endPc="268438725" name="width" stackId="15" startPc="268438416"/>
+        <entry endPc="268438717" name="i" stackId="16" startPc="268438568"/>
+        <entry endPc="268438707" name="y0" stackId="17" startPc="268438568"/>
+        <entry endPc="268438707" name="y1" stackId="18" startPc="268438568"/>
+        <entry endPc="268438914" name="iter" stackId="1" startPc="268438730"/>
+        <entry endPc="268438914" name="sum" stackId="2" startPc="268438730"/>
+        <entry endPc="268438914" name="n" stackId="3" startPc="268438730"/>
+        <entry endPc="268438914" name="sample" stackId="4" startPc="268438730"/>
+        <entry endPc="268438893" name="d" stackId="5" startPc="268438847"/>
+        <entry arg="true" endPc="268439169" name="dc" stackId="1" startPc="268438915"/>
+        <entry arg="true" endPc="268439169" name="startDeg" stackId="2" startPc="268438915"/>
+        <entry arg="true" endPc="268439169" name="clockwise" stackId="3" startPc="268438915"/>
+        <entry endPc="268439168" name="sign" stackId="4" startPc="268438918"/>
+        <entry endPc="268439168" name="dir" stackId="5" startPc="268438918"/>
+        <entry endPc="268439168" name="endDeg" stackId="6" startPc="268438918"/>
+        <entry arg="true" endPc="268439317" name="dc" stackId="1" startPc="268439170"/>
+        <entry arg="true" endPc="268439317" name="x" stackId="2" startPc="268439170"/>
+        <entry arg="true" endPc="268439317" name="y" stackId="3" startPc="268439170"/>
+        <entry arg="true" endPc="268439317" name="font" stackId="4" startPc="268439170"/>
+        <entry arg="true" endPc="268439317" name="str" stackId="5" startPc="268439170"/>
+        <entry arg="true" endPc="268439317" name="color" stackId="6" startPc="268439170"/>
+        <entry arg="true" endPc="268439317" name="just" stackId="7" startPc="268439170"/>
+        <entry endPc="268439316" name="sx" stackId="8" startPc="268439173"/>
+        <entry endPc="268439316" name="sy" stackId="9" startPc="268439173"/>
+        <entry endPc="268439397" name="utc" stackId="1" startPc="268439321"/>
+        <entry arg="true" endPc="268439873" name="theme" stackId="1" startPc="268439398"/>
+        <entry endPc="268440003" name="info" stackId="1" startPc="268439877"/>
+        <entry endPc="268439915" name="hr" stackId="2" startPc="268439895"/>
+        <entry endPc="268439998" name="iter" stackId="3" startPc="268439934"/>
+        <entry endPc="268439998" name="sample" stackId="4" startPc="268439934"/>
+        <entry endPc="268439995" name="v" stackId="5" startPc="268439966"/>
+        <entry arg="true" endPc="268440093" name="dc" stackId="1" startPc="268440004"/>
+        <entry arg="true" endPc="268440093" name="labels" stackId="2" startPc="268440004"/>
+        <entry arg="true" endPc="268440093" name="values" stackId="3" startPc="268440004"/>
+        <entry arg="true" endPc="268440093" name="lblFont" stackId="4" startPc="268440004"/>
+        <entry arg="true" endPc="268440093" name="valFont" stackId="5" startPc="268440004"/>
+        <entry arg="true" endPc="268440093" name="gap" stackId="6" startPc="268440004"/>
+        <entry arg="true" endPc="268440093" name="pairGap" stackId="7" startPc="268440004"/>
+        <entry endPc="268440093" name="total" stackId="8" startPc="268440007"/>
+        <entry endPc="268440076" name="i" stackId="9" startPc="268440026"/>
+        <entry arg="true" endPc="268440736" name="dc" stackId="1" startPc="268440094"/>
+        <entry arg="true" endPc="268440736" name="startDeg" stackId="2" startPc="268440094"/>
+        <entry arg="true" endPc="268440736" name="clockwise" stackId="3" startPc="268440094"/>
+        <entry arg="true" endPc="268440736" name="frac" stackId="4" startPc="268440094"/>
+        <entry arg="true" endPc="268440736" name="stops" stackId="5" startPc="268440094"/>
+        <entry endPc="268440735" name="fill" stackId="6" startPc="268440097"/>
+        <entry endPc="268440735" name="sign" stackId="7" startPc="268440097"/>
+        <entry endPc="268440735" name="dir" stackId="8" startPc="268440097"/>
+        <entry endPc="268440735" name="endDeg" stackId="9" startPc="268440097"/>
+        <entry endPc="268440407" name="k" stackId="10" startPc="268440285"/>
+        <entry endPc="268440397" name="kEnd" stackId="11" startPc="268440285"/>
+        <entry endPc="268440723" name="k" stackId="12" startPc="268440488"/>
+        <entry endPc="268440713" name="kEnd" stackId="13" startPc="268440488"/>
+        <entry endPc="268440713" name="c" stackId="14" startPc="268440488"/>
+        <entry endPc="268440713" name="a0" stackId="15" startPc="268440488"/>
+        <entry endPc="268440713" name="a1" stackId="16" startPc="268440488"/>
+        <entry arg="true" endPc="268440978" name="dc" stackId="1" startPc="268440737"/>
+        <entry arg="true" endPc="268440978" name="clock" stackId="2" startPc="268440737"/>
+        <entry endPc="268440886" name="inner" stackId="3" startPc="268440756"/>
+        <entry endPc="268440886" name="sideX" stackId="4" startPc="268440756"/>
+        <entry endPc="268440977" name="hr" stackId="5" startPc="268440740"/>
+        <entry endPc="268440977" name="hx" stackId="6" startPc="268440740"/>
+        <entry endPc="268441134" name="iter" stackId="1" startPc="268440982"/>
+        <entry endPc="268441134" name="sum" stackId="2" startPc="268440982"/>
+        <entry endPc="268441134" name="n" stackId="3" startPc="268440982"/>
+        <entry endPc="268441134" name="sample" stackId="4" startPc="268440982"/>
+        <entry endPc="268441113" name="v" stackId="5" startPc="268441064"/>
+        <entry arg="true" endPc="268441184" name="key" stackId="1" startPc="268441135"/>
+        <entry endPc="268441178" name="e" stackId="2" startPc="268441162"/>
+        <entry arg="true" endPc="268442126" name="dc" stackId="1" startPc="268441215"/>
+        <entry arg="true" endPc="268442126" name="clock" stackId="2" startPc="268441215"/>
+        <entry endPc="268442125" name="ds" stackId="3" startPc="268441218"/>
+        <entry endPc="268442125" name="stats" stackId="4" startPc="268441218"/>
+        <entry endPc="268442125" name="am" stackId="5" startPc="268441218"/>
+        <entry endPc="268442125" name="center" stackId="6" startPc="268441218"/>
+        <entry endPc="268442125" name="steps" stackId="7" startPc="268441218"/>
+        <entry endPc="268442125" name="goal" stackId="8" startPc="268441218"/>
+        <entry endPc="268442125" name="stepFrac" stackId="9" startPc="268441218"/>
+        <entry endPc="268442125" name="battery" stackId="10" startPc="268441218"/>
+        <entry endPc="268442125" name="batGrad" stackId="11" startPc="268441218"/>
+        <entry endPc="268442125" name="batColor" stackId="12" startPc="268441218"/>
+        <entry endPc="268442125" name="batStr" stackId="13" startPc="268441218"/>
+        <entry endPc="268441691" name="days" stackId="14" startPc="268441646"/>
+        <entry endPc="268442125" name="bb" stackId="15" startPc="268441218"/>
+        <entry endPc="268442125" name="bbFrac" stackId="16" startPc="268441218"/>
+        <entry endPc="268442125" name="inner" stackId="17" startPc="268441218"/>
+        <entry endPc="268442125" name="sideX" stackId="18" startPc="268441218"/>
+        <entry endPc="268442125" name="now" stackId="19" startPc="268441218"/>
+        <entry endPc="268442125" name="dateStr" stackId="20" startPc="268441218"/>
+        <entry endPc="268442125" name="hx" stackId="21" startPc="268441218"/>
+        <entry arg="true" endPc="268442611" name="dc" stackId="1" startPc="268442127"/>
+        <entry arg="true" endPc="268442611" name="clock" stackId="2" startPc="268442127"/>
+        <entry endPc="268442610" name="away" stackId="3" startPc="268442130"/>
+        <entry endPc="268442610" name="lblFont" stackId="4" startPc="268442130"/>
+        <entry endPc="268442610" name="valFont" stackId="5" startPc="268442130"/>
+        <entry endPc="268442610" name="gap" stackId="6" startPc="268442130"/>
+        <entry endPc="268442610" name="pairGap" stackId="7" startPc="268442130"/>
+        <entry endPc="268442610" name="y" stackId="8" startPc="268442130"/>
+        <entry endPc="268442610" name="labels" stackId="9" startPc="268442130"/>
+        <entry endPc="268442610" name="values" stackId="10" startPc="268442130"/>
+        <entry endPc="268442610" name="fonts" stackId="11" startPc="268442130"/>
+        <entry endPc="268442610" name="total" stackId="12" startPc="268442130"/>
+        <entry endPc="268442350" name="f" stackId="13" startPc="268442287"/>
+        <entry endPc="268442610" name="x" stackId="14" startPc="268442130"/>
+        <entry endPc="268442610" name="leftV" stackId="15" startPc="268442130"/>
+        <entry endPc="268442610" name="sx" stackId="16" startPc="268442130"/>
+        <entry endPc="268442610" name="sy" stackId="17" startPc="268442130"/>
+        <entry endPc="268442610" name="i" stackId="18" startPc="268442419"/>
+        <entry endPc="268442600" name="lw" stackId="19" startPc="268442419"/>
+        <entry endPc="268442600" name="vw" stackId="20" startPc="268442419"/>
+        <entry endPc="268442600" name="vx" stackId="21" startPc="268442419"/>
+        <entry arg="true" endPc="268443038" name="dc" stackId="1" startPc="268442612"/>
+        <entry endPc="268443037" name="r" stackId="2" startPc="268442615"/>
+        <entry endPc="268443037" name="edge" stackId="3" startPc="268442615"/>
+        <entry endPc="268443037" name="steps" stackId="4" startPc="268442615"/>
+        <entry endPc="268442820" name="i" stackId="5" startPc="268442665"/>
+        <entry endPc="268442810" name="rr" stackId="6" startPc="268442665"/>
+        <entry endPc="268442810" name="depth" stackId="7" startPc="268442665"/>
+        <entry endPc="268442810" name="c" stackId="8" startPc="268442665"/>
+        <entry endPc="268443037" name="sy" stackId="9" startPc="268442615"/>
+        <entry endPc="268443037" name="sa" stackId="10" startPc="268442615"/>
+        <entry endPc="268443037" name="sb" stackId="11" startPc="268442615"/>
+        <entry endPc="268443037" name="base" stackId="12" startPc="268442615"/>
+        <entry endPc="268443037" name="layers" stackId="13" startPc="268442615"/>
+        <entry endPc="268443037" name="j" stackId="14" startPc="268442924"/>
+        <entry endPc="268443027" name="f" stackId="15" startPc="268442924"/>
+        <entry endPc="268443145" name="e" stackId="1" startPc="268443127"/>
+        <entry endPc="268443239" name="ref" stackId="2" startPc="268443042"/>
+        <entry endPc="268443239" name="bmp" stackId="3" startPc="268443042"/>
+        <entry arg="true" endPc="268443393" name="dc" stackId="1" startPc="268443240"/>
+        <entry endPc="268443392" name="steps" stackId="2" startPc="268443243"/>
+        <entry endPc="268443392" name="i" stackId="3" startPc="268443258"/>
+        <entry endPc="268443382" name="t" stackId="4" startPc="268443258"/>
+        <entry endPc="268443382" name="rr" stackId="5" startPc="268443258"/>
+        <entry endPc="268443382" name="k" stackId="6" startPc="268443258"/>
+        <entry arg="true" endPc="268443470" name="days" stackId="1" startPc="268443394"/>
+        <entry endPc="268443470" name="hours" stackId="2" startPc="268443397"/>
+        <entry endPc="268443530" name="info" stackId="1" startPc="268443474"/>
+        <entry endPc="268443525" name="st" stackId="2" startPc="268443503"/>
+        <entry arg="true" endPc="268443547" name="d" stackId="1" startPc="268443531"/>
+        <entry endPc="268443609" name="ds" stackId="1" startPc="268443551"/>
+        <entry arg="true" endPc="268443639" name="dc" stackId="1" startPc="268443611"/>
+        <entry arg="true" endPc="268443893" name="dc" stackId="1" startPc="268443640"/>
+        <entry endPc="268443892" name="clock" stackId="2" startPc="268443643"/>
+        <entry endPc="268443892" name="cacheDc" stackId="3" startPc="268443643"/>
+        <entry endPc="268443892" name="cache" stackId="4" startPc="268443643"/>
+        <entry arg="true" endPc="268444355" name="dc" stackId="1" startPc="268443894"/>
+        <entry arg="true" endPc="268444355" name="clock" stackId="2" startPc="268443894"/>
+        <entry endPc="268444354" name="ds" stackId="3" startPc="268443897"/>
+        <entry endPc="268444354" name="timeStr" stackId="4" startPc="268443897"/>
+        <entry endPc="268444354" name="zStr" stackId="5" startPc="268443897"/>
+        <entry endPc="268444354" name="step" stackId="6" startPc="268443897"/>
+        <entry endPc="268444354" name="dx" stackId="7" startPc="268443897"/>
+        <entry endPc="268444354" name="dy" stackId="8" startPc="268443897"/>
+        <entry endPc="268444354" name="font" stackId="9" startPc="268443897"/>
+        <entry endPc="268444354" name="th" stackId="10" startPc="268443897"/>
+        <entry endPc="268444354" name="timeY" stackId="11" startPc="268443897"/>
+        <entry endPc="268444354" name="center" stackId="12" startPc="268443897"/>
+        <entry endPc="268444354" name="zFont" stackId="13" startPc="268443897"/>
+        <entry endPc="268444354" name="zh" stackId="14" startPc="268443897"/>
+        <entry endPc="268444354" name="zY" stackId="15" startPc="268443897"/>
+        <entry endPc="268444354" name="top" stackId="16" startPc="268443897"/>
+        <entry endPc="268444354" name="bottom" stackId="17" startPc="268443897"/>
+        <entry endPc="268444354" name="parity" stackId="18" startPc="268443897"/>
+        <entry endPc="268444354" name="start" stackId="19" startPc="268443897"/>
+        <entry endPc="268444354" name="y" stackId="20" startPc="268444325"/>
+    </localVars>
+    <deviceInfo deviceVersion="eddc2840754f6d29c6c9a3ede43befdaadd25a09" partNumber="006-B4644-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowSecondsTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ThemeTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ThemeQR"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ThemeEicas"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Rez" offset="107" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/FlightDeckApp" offset="151" parentId="globals" symbolId="FlightDeckApp" type="class"/>
+        <dataEntry label="globals/FlightDeckView" offset="240" parentId="globals" symbolId="FlightDeckView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="950" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="985" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435479" name="&lt;init&gt;" parent="Rez" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435491" name="&lt;init&gt;" parent="FlightDeckApp" startPc="268435480">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435503" name="&lt;init&gt;" parent="FlightDeckView" startPc="268435492">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435506" name="onStart" parent="FlightDeckApp" startPc="268435504">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435546" name="onSettingsChanged" parent="FlightDeckApp" startPc="268435507">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435588" name="getInitialView" parent="FlightDeckApp" startPc="268435547">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435603" name="initialize" parent="FlightDeckApp" startPc="268435589">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435606" name="onStop" parent="FlightDeckApp" startPc="268435604">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436572" name="&lt;globals/FlightDeckView/&lt;&gt;drawEicas&gt;" parent="FlightDeckView" startPc="268435607">
+            <param id="dc"/>
+            <param id="ds"/>
+            <param id="stats"/>
+            <param id="battery"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436676" name="&lt;globals/FlightDeckView/&lt;&gt;capAt&gt;" parent="FlightDeckView" startPc="268436573">
+            <param id="dc"/>
+            <param id="deg"/>
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436851" name="&lt;globals/FlightDeckView/&lt;&gt;recentSpO2&gt;" parent="FlightDeckView" startPc="268436677">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437352" name="&lt;globals/FlightDeckView/&lt;&gt;drawTime&gt;" parent="FlightDeckView" startPc="268436852">
+            <param id="dc"/>
+            <param id="clock"/>
+            <param id="is24"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437472" name="&lt;globals/FlightDeckView/&lt;&gt;lerpColor&gt;" parent="FlightDeckView" startPc="268437353">
+            <param id="a"/>
+            <param id="b"/>
+            <param id="f"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437523" name="&lt;globals/FlightDeckView/&lt;&gt;addMsg&gt;" parent="FlightDeckView" startPc="268437473">
+            <param id="texts"/>
+            <param id="colors"/>
+            <param id="boxed"/>
+            <param id="indent"/>
+            <param id="text"/>
+            <param id="color"/>
+            <param id="isBoxed"/>
+            <param id="isIndented"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437653" name="&lt;globals/FlightDeckView/&lt;&gt;elevationFeet&gt;" parent="FlightDeckView" startPc="268437524">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437764" name="&lt;globals/FlightDeckView/&lt;&gt;homeString&gt;" parent="FlightDeckView" startPc="268437654">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437891" name="&lt;globals/FlightDeckView/&lt;&gt;readBodyBattery&gt;" parent="FlightDeckView" startPc="268437765">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438074" name="onLayout" parent="FlightDeckView" startPc="268437892">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438182" name="&lt;globals/FlightDeckView/&lt;&gt;gradColor&gt;" parent="FlightDeckView" startPc="268438075">
+            <param id="stops"/>
+            <param id="t"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438284" name="&lt;globals/FlightDeckView/&lt;&gt;formatTime&gt;" parent="FlightDeckView" startPc="268438183">
+            <param id="clock"/>
+            <param id="is24"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438390" name="loadSettings" parent="FlightDeckView" startPc="268438285">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438412" name="onEnterSleep" parent="FlightDeckView" startPc="268438391">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438726" name="&lt;globals/FlightDeckView/&lt;&gt;gradientTextV&gt;" parent="FlightDeckView" startPc="268438413">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="font"/>
+            <param id="str"/>
+            <param id="stops"/>
+            <param id="bands"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438914" name="&lt;globals/FlightDeckView/&lt;&gt;averageStress&gt;" parent="FlightDeckView" startPc="268438727">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439169" name="&lt;globals/FlightDeckView/&lt;&gt;drawTrack&gt;" parent="FlightDeckView" startPc="268438915">
+            <param id="dc"/>
+            <param id="startDeg"/>
+            <param id="clockwise"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439317" name="&lt;globals/FlightDeckView/&lt;&gt;shadowText&gt;" parent="FlightDeckView" startPc="268439170">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="font"/>
+            <param id="str"/>
+            <param id="color"/>
+            <param id="just"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439397" name="&lt;globals/FlightDeckView/&lt;&gt;utcString&gt;" parent="FlightDeckView" startPc="268439318">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439873" name="&lt;globals/FlightDeckView/&lt;&gt;applyTheme&gt;" parent="FlightDeckView" startPc="268439398">
+            <param id="theme"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440003" name="&lt;globals/FlightDeckView/&lt;&gt;getHeartRate&gt;" parent="FlightDeckView" startPc="268439874">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440093" name="&lt;globals/FlightDeckView/&lt;&gt;measurePairs&gt;" parent="FlightDeckView" startPc="268440004">
+            <param id="dc"/>
+            <param id="labels"/>
+            <param id="values"/>
+            <param id="lblFont"/>
+            <param id="valFont"/>
+            <param id="gap"/>
+            <param id="pairGap"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440736" name="&lt;globals/FlightDeckView/&lt;&gt;drawFill&gt;" parent="FlightDeckView" startPc="268440094">
+            <param id="dc"/>
+            <param id="startDeg"/>
+            <param id="clockwise"/>
+            <param id="frac"/>
+            <param id="stops"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440978" name="&lt;globals/FlightDeckView/&lt;&gt;drawDynamic&gt;" parent="FlightDeckView" startPc="268440737">
+            <param id="dc"/>
+            <param id="clock"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268441134" name="&lt;globals/FlightDeckView/&lt;&gt;averageHeartRate&gt;" parent="FlightDeckView" startPc="268440979">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268441184" name="&lt;globals/FlightDeckView/&lt;&gt;getProp&gt;" parent="FlightDeckView" startPc="268441135">
+            <param id="key"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441214" name="onExitSleep" parent="FlightDeckView" startPc="268441185">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268442126" name="&lt;globals/FlightDeckView/&lt;&gt;drawStatic&gt;" parent="FlightDeckView" startPc="268441215">
+            <param id="dc"/>
+            <param id="clock"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268442611" name="&lt;globals/FlightDeckView/&lt;&gt;drawZoneLine&gt;" parent="FlightDeckView" startPc="268442127">
+            <param id="dc"/>
+            <param id="clock"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443038" name="&lt;globals/FlightDeckView/&lt;&gt;drawDome&gt;" parent="FlightDeckView" startPc="268442612">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443239" name="&lt;globals/FlightDeckView/&lt;&gt;getCacheDc&gt;" parent="FlightDeckView" startPc="268443039">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443393" name="&lt;globals/FlightDeckView/&lt;&gt;drawVignette&gt;" parent="FlightDeckView" startPc="268443240">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443470" name="&lt;globals/FlightDeckView/&lt;&gt;formatEndurance&gt;" parent="FlightDeckView" startPc="268443394">
+            <param id="days"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443530" name="&lt;globals/FlightDeckView/&lt;&gt;activityRunning&gt;" parent="FlightDeckView" startPc="268443471">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443547" name="&lt;globals/FlightDeckView/&lt;&gt;normDeg&gt;" parent="FlightDeckView" startPc="268443531">
+            <param id="d"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443610" name="initialize" parent="FlightDeckView" startPc="268443548">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443639" name="&lt;globals/FlightDeckView/&lt;&gt;antiAlias&gt;" parent="FlightDeckView" startPc="268443611">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443893" name="onUpdate" parent="FlightDeckView" startPc="268443640">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268444355" name="&lt;globals/FlightDeckView/&lt;&gt;drawAlwaysOn&gt;" parent="FlightDeckView" startPc="268443894">
+            <param id="dc"/>
+            <param id="clock"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

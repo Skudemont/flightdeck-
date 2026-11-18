@@ -1,0 +1,29 @@
+=== venu445mm-away (venu445mm, TZ=UTC) ===
+
+(simulator:3457): dbind-WARNING **: 18:26:13.684: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+attempt 1: simulator not ready yet
+attempt 2: simulator not ready yet
+18:26:38: Debug: Adding duplicate image handler for 'JPEG file'
+18:26:38: Debug: SetLayout
+attempt 3: simulator not ready yet
+attempt 4: app launched
+=== venu445mm-home (venu445mm, TZ=Asia/Qatar) ===
+
+(simulator:3694): dbind-WARNING **: 21:27:03.944: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+attempt 1: simulator not ready yet
+attempt 2: simulator not ready yet
+21:27:28: Debug: Adding duplicate image handler for 'JPEG file'
+21:27:29: Debug: SetLayout
+attempt 3: simulator not ready yet
+attempt 4: app launched
+=== venu441mm-home (venu441mm, TZ=Asia/Qatar) ===
+
+(simulator:3904): dbind-WARNING **: 21:27:54.149: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+attempt 1: simulator not ready yet
+21:28:13: Debug: Adding duplicate image handler for 'JPEG file'
+21:28:13: Debug: SetLayout
+attempt 2: simulator not ready yet
+attempt 3: app launched
+-rw-r--r-- 1 runner runner 184453 Nov 18 18:28 build/sim-venu441mm-home.png
+-rw-r--r-- 1 runner runner 224098 Nov 18 18:27 build/sim-venu445mm-away.png
+-rw-r--r-- 1 runner runner 225371 Nov 18 18:27 build/sim-venu445mm-home.png
